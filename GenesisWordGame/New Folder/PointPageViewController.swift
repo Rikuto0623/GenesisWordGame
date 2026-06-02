@@ -19,9 +19,9 @@ class PointPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let name =
-                UserDefaults.standard.string(forKey: "USER_NAME")
-                ?? "ゲスト"
+        let name = UserDefaults.standard.string(forKey: "USER_NAME") ?? "ゲスト"
+        nameLabel.text = name
+        
         // 保存されたポイント取得
         point = UserDefaults.standard.integer(forKey: "POINT")
         
