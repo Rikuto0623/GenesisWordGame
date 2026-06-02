@@ -104,7 +104,75 @@ E･a･r･t･h だよ。
 E･v･e･n･i･n･g だよ。
 頑張ってこのスペルを覚えよう
 """
+    ),
+    
+    Quiz(
+        choices: ["F･a･c･e", "F･a･e", "F･a･s･e"],
+        answer: 0,
+        soundName: "Face",
+        explanation: """
+F･a･c･e だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["F･r･o･m", "F･o･r･m", "F･o･m"],
+        answer: 1,
+        soundName: "Form",
+        explanation: """
+F･o･r･m だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["F･r･m", "F･o･r･m", "F･r･o･m"],
+        answer: 2,
+        soundName: "From",
+        explanation: """
+F･r･o･m だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["G･o･d", "G･d", "G･o･o･d"],
+        answer: 0,
+        soundName: "God",
+        explanation: """
+G･o･d だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["G･o･d", "G･o･o･d", "D･o･d"],
+        answer: 1,
+        soundName: "Good",
+        explanation: """
+G･o･o･d だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["H", "H･e･e", "H･e"],
+        answer: 2,
+        soundName: "He",
+        explanation: """
+H･e だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        answer: 0,
+        soundName: "Heavens",
+        explanation: """
+H･e･a･v･e･n･s だよ。
+頑張ってこのスペルを覚えよう
+"""
     )
+//_____________________________________________________________________________________________________________________________
 ]
 let SecondDayQuizzes: [Quiz] = []
 let ThirdDayQuizzes: [Quiz] = []
