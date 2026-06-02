@@ -7,11 +7,11 @@
 
 import UIKit
 import AVFoundation
+
 class SpeakViewController: UIViewController {
     
     @IBOutlet weak var textField: UITextField!
     
-    // 音声を話すための機能
     let speechSynthesizer = AVSpeechSynthesizer()
     
     override func viewDidLoad() {
@@ -20,41 +20,50 @@ class SpeakViewController: UIViewController {
     
     @IBAction func sendButton(_ sender: UIButton) {
         
-        // 入力チェック
         guard let text = textField.text,
               !text.isEmpty else {
             return
         }
         
-        // AIの返事
         let reply = aiResponse(text: text)
         
-        // AIがしゃべる
         speak(text: reply)
         
-        // 入力欄を空
-        textField.text = text
+        textField.text = ""
     }
     
     // AIの返事
     func aiResponse(text: String) -> String {
         
-        if text.contains(text) {
-            return text
-            
-        } else {
-            return "そんな単語はありません"
-        }
+        return text
     }
     
     // 音声読み上げ
     func speak(text: String) {
         
         let utterance = AVSpeechUtterance(string: text)
-            utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-            utterance.rate = 0.45
-            utterance.pitchMultiplier = 1.1
-            utterance.volume = 1.0
-            speechSynthesizer.speak(utterance)
+        
+        let isJapanese =
+        text.range(
+            of: "[ぁ-んァ-ン一-龯]",
+            options: .regularExpression
+        ) != nil
+        
+        if isJapanese {
+            
+            utterance.voice =
+            AVSpeechSynthesisVoice(language: "ja-JP")
+            
+        } else {
+            
+            utterance.voice =
+            AVSpeechSynthesisVoice(language: "en-US")
+        }
+        
+        utterance.rate = 0.45
+        utterance.pitchMultiplier = 1.1
+        utterance.volume = 1.0
+        
+        speechSynthesizer.speak(utterance)
     }
 }
