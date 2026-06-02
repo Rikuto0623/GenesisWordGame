@@ -23,6 +23,16 @@ class SettingViewController: UIViewController {
             forKey: "USER_AGE"
         )
         
-        print("保存成功")
+        let alert = UIAlertController(
+            title: "保存完了",
+            message: "設定を保存しました",
+            preferredStyle: .alert
+        )
+        
+        alert.addAction(
+            UIAlertAction(title: "OK", style: .default)
+        )
+        
+        present(alert, animated: true)
     }
 }
