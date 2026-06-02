@@ -219,7 +219,7 @@ class QuizViewController: UIViewController {
             segue.destination as! ResultViewController
 
             resultVC.score = score
-            resultVC.point = score
+            resultVC.point = point
         }
     }
 }

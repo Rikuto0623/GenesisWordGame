@@ -22,10 +22,6 @@ class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        // 保存されたポイント取得
-        point = UserDefaults.standard.integer(forKey: "POINT")
         
         // ポイント表示
         pointLabel.text = "現在のポイント: \(point)"
