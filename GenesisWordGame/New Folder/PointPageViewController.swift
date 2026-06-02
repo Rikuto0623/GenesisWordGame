@@ -1,0 +1,79 @@
+//
+//  PointPageViewController.swift
+//  GenesisGameApp
+//
+//  Created by 鈴木久美 on 2026/05/18.
+//
+
+import UIKit
+class PointPageViewController: UIViewController {
+    
+    @IBOutlet weak var pointLabel: UILabel!
+    
+    @IBOutlet weak var characterImageView: UIImageView!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    var point = 0
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let name =
+                UserDefaults.standard.string(forKey: "USER_NAME")
+                ?? "ゲスト"
+        // 保存されたポイント取得
+        point = UserDefaults.standard.integer(forKey: "POINT")
+        
+        // ポイント表示
+        pointLabel.text = "ポイント: \(point)"
+        
+        // 画像を丸くする
+        characterImageView.layer.cornerRadius = characterImageView.frame.size.width / 2
+        characterImageView.clipsToBounds = true
+        characterImageView.contentMode = .scaleAspectFill
+        
+        // 画像変更
+        changeCharacter()
+    }
+    
+    func changeCharacter() {
+        
+        if point >= 63217 {
+            
+            characterImageView.image = UIImage(named: "God")
+            
+        } else if point >= 5678 {
+            
+            characterImageView.image = UIImage(named: "Human")
+        } else if point >= 3456 {
+            
+            characterImageView.image = UIImage(named: "Moon")
+        } else if point >= 1456 {
+            
+            characterImageView.image = UIImage(named: "Star")
+        } else if point >= 987 {
+            
+            characterImageView.image = UIImage(named: "Sea")
+        } else if point >= 567 {
+            
+            characterImageView.image = UIImage(named: "Sun")
+            
+        } else {
+            
+            characterImageView.image = UIImage(named: "Earth")
+        }
+    }
+    
+    // ポイントリセットボタン
+    @IBAction func resetButtonTapped(_ sender: UIButton) {
+        
+        point = 0
+        
+        UserDefaults.standard.set(point, forKey: "POINT")
+        
+        pointLabel.text = "ポイント: 0"
+        
+        changeCharacter()
+    }
+}
