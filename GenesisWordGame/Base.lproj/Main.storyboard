@@ -11,9 +11,9 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="GenesisGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ホーム画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHO-oa-fc4">
@@ -24,11 +24,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buttonBackIllustration1" translatesAutoresizingMaskIntoConstraints="NO" id="gst-63-iqQ">
-                                <rect key="frame" x="129" y="153" width="147" height="130"/>
+                                <rect key="frame" x="16" y="151" width="147" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chk-y0-TNw">
-                                <rect key="frame" x="128" y="153" width="147" height="130"/>
+                                <rect key="frame" x="16" y="151" width="147" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray"/>
@@ -37,11 +37,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buttonBackIllustration2" translatesAutoresizingMaskIntoConstraints="NO" id="i1L-06-6RQ">
-                                <rect key="frame" x="126" y="289" width="147" height="158"/>
+                                <rect key="frame" x="239" y="137" width="147" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOr-Zs-Cxg">
-                                <rect key="frame" x="126" y="291" width="147" height="154"/>
+                                <rect key="frame" x="239" y="151" width="147" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray"/>
@@ -50,11 +50,11 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buttonBackIllustration3" translatesAutoresizingMaskIntoConstraints="NO" id="krf-rJ-8Ke">
-                                <rect key="frame" x="127" y="455" width="150" height="142"/>
+                                <rect key="frame" x="14" y="298" width="150" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ja-M4-uHQ">
-                                <rect key="frame" x="129" y="453" width="147" height="143"/>
+                                <rect key="frame" x="16" y="297" width="147" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray"/>
@@ -62,26 +62,34 @@
                                     <segue destination="dUp-0X-ggf" kind="show" id="gqU-tU-VkL"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buttonBackIllustration4" translatesAutoresizingMaskIntoConstraints="NO" id="dXN-6J-OlU">
+                                <rect key="frame" x="237" y="298" width="150" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71X-Sp-wsT">
-                                <rect key="frame" x="174" y="616" width="56" height="35"/>
+                                <rect key="frame" x="239" y="297" width="147" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="設定"/>
+                                <buttonConfiguration key="configuration" style="gray"/>
                                 <connections>
                                     <segue destination="caK-H8-LPM" kind="show" id="hOE-fg-0tv"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buttonBackIllustration5" translatesAutoresizingMaskIntoConstraints="NO" id="ieU-fZ-sKi">
+                                <rect key="frame" x="126" y="457" width="150" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLr-Fu-KBT">
-                                <rect key="frame" x="134" y="667" width="136" height="35"/>
+                                <rect key="frame" x="126" y="457" width="150" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="世界ランキング"/>
+                                <buttonConfiguration key="configuration" style="gray"/>
                                 <connections>
                                     <segue destination="bRl-3Q-g6F" kind="show" id="SG8-Ah-aMG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ns5-Cb-wNw">
-                                <rect key="frame" x="84" y="724" width="233" height="38"/>
+                                <rect key="frame" x="85" y="626" width="233" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -103,9 +111,9 @@
         <!--Speak View Controller-->
         <scene sceneID="v3k-Q6-dPN">
             <objects>
-                <viewController id="q0L-rq-8v2" customClass="SpeakViewController" customModule="GenesisGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="q0L-rq-8v2" customClass="SpeakViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H7x-aT-t58">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ここに単語をいれてね" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fD-N0-JUV">
@@ -198,9 +206,9 @@
         <!--Quiz View Controller-->
         <scene sceneID="xi3-M6-WV2">
             <objects>
-                <viewController id="dUp-0X-ggf" customClass="QuizViewController" customModule="GenesisGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dUp-0X-ggf" customClass="QuizViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L0r-be-14E">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j41-V4-EDd">
@@ -307,7 +315,7 @@
         <!--Result View Controller-->
         <scene sceneID="9Kk-Cw-Qoj">
             <objects>
-                <viewController id="VBA-4V-64h" customClass="ResultViewController" customModule="GenesisGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VBA-4V-64h" customClass="ResultViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dbz-Bb-6PD">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -378,9 +386,9 @@
         <!--Point Page View Controller-->
         <scene sceneID="88b-hQ-7lz">
             <objects>
-                <viewController id="yYn-JS-I7z" customClass="PointPageViewController" customModule="GenesisGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yYn-JS-I7z" customClass="PointPageViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wRR-3B-bm7">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ポイント" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNV-Pb-KHe">
@@ -445,9 +453,9 @@
         <!--Setting View Controller-->
         <scene sceneID="UFp-Gb-cNa">
             <objects>
-                <viewController id="caK-H8-LPM" customClass="SettingViewController" customModule="GenesisGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="caK-H8-LPM" customClass="SettingViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LBp-QY-xRx">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRA-68-Fgw">
@@ -501,7 +509,7 @@
         <!--Ranking View Controller-->
         <scene sceneID="3hY-cP-PRS">
             <objects>
-                <viewController id="bRl-3Q-g6F" customClass="RankingViewController" customModule="GenesisGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bRl-3Q-g6F" customClass="RankingViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iZq-nW-hjx">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -565,8 +573,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="TP0-9h-4tt"/>
         <segue reference="gqU-tU-VkL"/>
-        <segue reference="Hv9-Rl-dTX"/>
+        <segue reference="X7e-T8-gkV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Earth" width="1334" height="1179"/>
@@ -574,6 +583,8 @@
         <image name="buttonBackIllustration1" width="1024" height="1024"/>
         <image name="buttonBackIllustration2" width="1024" height="1024"/>
         <image name="buttonBackIllustration3" width="1024" height="1024"/>
+        <image name="buttonBackIllustration4" width="1024" height="1024"/>
+        <image name="buttonBackIllustration5" width="1024" height="1024"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
