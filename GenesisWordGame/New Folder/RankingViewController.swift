@@ -24,7 +24,9 @@ class RankingViewController: UIViewController,
         loadRanking()
     }
 
-    override func viewWillAppear(_ animated: Bool) {
+    override func viewWillAppear(
+        _ animated: Bool
+    ) {
         super.viewWillAppear(animated)
 
         loadRanking()
@@ -33,8 +35,9 @@ class RankingViewController: UIViewController,
     func loadRanking() {
 
         rankingData =
-        UserDefaults.standard.array(forKey: "RANKING")
-        as? [[String: Any]] ?? []
+        UserDefaults.standard.array(
+            forKey: "RANKING"
+        ) as? [[String: Any]] ?? []
 
         rankingData.sort {
             ($0["point"] as? Int ?? 0)
@@ -42,25 +45,21 @@ class RankingViewController: UIViewController,
             ($1["point"] as? Int ?? 0)
         }
 
-        print("ランキングデータ:", rankingData)
-
         tableView.reloadData()
     }
 
-    // セル数
-    func tableView(_ tableView: UITableView,
-                   numberOfRowsInSection section: Int)
-    -> Int {
-
-        print("件数:", rankingData.count)
+    func tableView(
+        _ tableView: UITableView,
+        numberOfRowsInSection section: Int
+    ) -> Int {
 
         return rankingData.count
     }
 
-    // セル表示
-    func tableView(_ tableView: UITableView,
-                   cellForRowAt indexPath: IndexPath)
-    -> UITableViewCell {
+    func tableView(
+        _ tableView: UITableView,
+        cellForRowAt indexPath: IndexPath
+    ) -> UITableViewCell {
 
         let cell =
         tableView.dequeueReusableCell(
@@ -68,7 +67,8 @@ class RankingViewController: UIViewController,
             for: indexPath
         )
 
-        let player = rankingData[indexPath.row]
+        let player =
+        rankingData[indexPath.row]
 
         let name =
         player["name"] as? String ?? "ゲスト"
@@ -83,15 +83,5 @@ class RankingViewController: UIViewController,
         "\(point)pt"
 
         return cell
-    }
-
-    // 行選択時（なくてもOK）
-    func tableView(_ tableView: UITableView,
-                   didSelectRowAt indexPath: IndexPath) {
-
-        tableView.deselectRow(
-            at: indexPath,
-            animated: true
-        )
     }
 }

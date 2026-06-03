@@ -220,6 +220,7 @@ class QuizViewController: UIViewController {
 
             resultVC.score = score
             resultVC.point = point
+            resultVC.point2 = score * 7
         }
     }
 }

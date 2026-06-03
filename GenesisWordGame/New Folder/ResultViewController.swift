@@ -11,32 +11,27 @@ class ResultViewController: UIViewController {
 
     @IBOutlet weak var scoreLabel: UITextView!
     @IBOutlet weak var messageLabel: UITextView!
-
     @IBOutlet weak var medalImage: UIImageView!
     @IBOutlet weak var pointLabel: UILabel!
 
     var score = 0
     var point = 0
+    var point2 = 0
 
     var shouldMoveQuiz = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // ポイント表示
+
         pointLabel.text = "現在のポイント: \(point)"
 
-        // 画像を丸くする
         medalImage.layer.cornerRadius =
-        medalImage.frame.size.width / 2
+        medalImage.frame.width / 2
 
         medalImage.clipsToBounds = true
-        medalImage.contentMode = .scaleAspectFill
 
-        // 点数表示
         scoreLabel.text = "\(score) / 5問正解!!"
 
-        // メッセージ表示
         if score == 5 {
 
             messageLabel.text = "Perfect!! 🎉"
@@ -54,14 +49,13 @@ class ResultViewController: UIViewController {
             messageLabel.text = "Try Again! 🙂"
         }
 
-        // ランキング保存
         saveRanking()
 
-        // キャラクター変更
         changeCharacter()
 
-        // 4.55秒後にクイズへ戻る
-        DispatchQueue.main.asyncAfter(deadline: .now() + 4.55) {
+        DispatchQueue.main.asyncAfter(
+            deadline: .now() + 4.55
+        ) {
 
             if self.shouldMoveQuiz {
 
@@ -73,16 +67,17 @@ class ResultViewController: UIViewController {
         }
     }
 
-    // ランキング保存
     func saveRanking() {
 
         let name =
-        UserDefaults.standard.string(forKey: "USER_NAME")
-        ?? "ゲスト"
+        UserDefaults.standard.string(
+            forKey: "USER_NAME"
+        ) ?? "ゲスト"
 
         var ranking =
-        UserDefaults.standard.array(forKey: "RANKING")
-        as? [[String: Any]] ?? []
+        UserDefaults.standard.array(
+            forKey: "RANKING"
+        ) as? [[String: Any]] ?? []
 
         var found = false
 
@@ -111,31 +106,36 @@ class ResultViewController: UIViewController {
             ])
         }
 
+        ranking.sort {
+            ($0["point"] as? Int ?? 0)
+            >
+            ($1["point"] as? Int ?? 0)
+        }
+
         UserDefaults.standard.set(
             ranking,
             forKey: "RANKING"
         )
     }
 
-    // キャラクター変更
     func changeCharacter() {
 
-        if point >= 35 {
+        if point2 >= 35 {
 
             medalImage.image =
             UIImage(named: "medalImageGod")
 
-        } else if point >= 28 {
+        } else if point2 >= 28 {
 
             medalImage.image =
             UIImage(named: "medalImageSun")
 
-        } else if point >= 21 {
+        } else if point2 >= 21 {
 
             medalImage.image =
             UIImage(named: "medalImageMoon")
 
-        } else if point >= 14 {
+        } else if point2 >= 14 {
 
             medalImage.image =
             UIImage(named: "medalImageStar")
@@ -147,7 +147,9 @@ class ResultViewController: UIViewController {
         }
     }
 
-    @IBAction func tapHomeButton(_ sender: UIButton) {
+    @IBAction func tapHomeButton(
+        _ sender: UIButton
+    ) {
 
         shouldMoveQuiz = false
 
