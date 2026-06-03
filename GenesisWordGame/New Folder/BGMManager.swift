@@ -1,9 +1,10 @@
 //
-//  BGMManger.swift
+//  BGMManager.swift
 //  GenesisWordGame
 //
-//  Created by 鈴木久美 on 2026/06/03.
+//  Created by 鈴木久美 on 2026/06/04.
 //
+
 
 import Foundation
 import AVFoundation
@@ -22,14 +23,12 @@ class BGMManager {
         if audioPlayer?.isPlaying == true {
             return
         }
-
-        guard let url = Bundle.main.url(
-            forResource: "LetThereBeLight_Genesis",
-            withExtension: "wav"
-        ) else {
-            print("BGMファイルが見つかりません")
-            return
-        }
+            guard let url = Bundle.main.url(
+                forResource: "Genesis_Orchestra",
+                withExtension: "mp3"
+            ) else {
+                return
+            }
 
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url)
