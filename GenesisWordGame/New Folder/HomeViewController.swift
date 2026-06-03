@@ -11,16 +11,19 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+
+        // BGM再生
         BGMManager.shared.playBGM()
 
-        let name =
-        UserDefaults.standard.string(forKey: "USER_NAME")
-        ?? "ゲスト"
+        // ユーザー名表示
+        let name = UserDefaults.standard.string(forKey: "USER_NAME") ?? "ゲスト"
 
-        nameLabel.text =
-        "ようこそ \(name) さん"
+        nameLabel.text = "ようこそ \(name) さん"
     }
 }

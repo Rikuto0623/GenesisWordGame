@@ -18,9 +18,14 @@ class BGMManager {
 
     func playBGM() {
 
+        // 既に再生中なら何もしない
+        if audioPlayer?.isPlaying == true {
+            return
+        }
+
         guard let url = Bundle.main.url(
             forResource: "LetThereBeLight_Genesis",
-            withExtension: "MP3"
+            withExtension: "wav"
         ) else {
             print("BGMファイルが見つかりません")
             return
@@ -28,26 +33,16 @@ class BGMManager {
 
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url)
-
             audioPlayer?.numberOfLoops = -1
-            audioPlayer?.volume = 1.0
             audioPlayer?.prepareToPlay()
             audioPlayer?.play()
 
         } catch {
-            print("再生エラー: \(error)")
+            print(error)
         }
     }
 
     func stopBGM() {
         audioPlayer?.stop()
-    }
-
-    func pauseBGM() {
-        audioPlayer?.pause()
-    }
-
-    func resumeBGM() {
-        audioPlayer?.play()
     }
 }
