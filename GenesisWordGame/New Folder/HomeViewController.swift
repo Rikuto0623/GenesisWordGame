@@ -13,6 +13,8 @@ class HomeViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        BGMManager.shared.playBGM()
 
         let name =
         UserDefaults.standard.string(forKey: "USER_NAME")
