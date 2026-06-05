@@ -24,7 +24,7 @@ class BGMManager {
             return
         }
             guard let url = Bundle.main.url(
-                forResource: "Genesis_Orchestra",
+                forResource: "Genesis_of_Light",
                 withExtension: "mp3"
             ) else {
                 return
