@@ -16,6 +16,8 @@ class SpeakViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        BGMManager.shared.stopBGM()
     }
     
     @IBAction func sendButton(_ sender: UIButton) {
