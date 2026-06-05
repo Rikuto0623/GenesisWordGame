@@ -38,6 +38,9 @@ class QuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // ホームBGMを停止
+        BGMManager.shared.stopBGM()
+
         // ポイント読み込み
         point = UserDefaults.standard.integer(forKey: "POINT")
 

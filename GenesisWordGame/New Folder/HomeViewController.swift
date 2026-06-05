@@ -19,7 +19,7 @@ class HomeViewController: UIViewController {
         super.viewWillAppear(animated)
 
         // BGM再生
-        BGMManager.shared.playBGM()
+        BGMManager.shared.playBGM(name: "Genesis_of_Light")
 
         // ユーザー名表示
         let name = UserDefaults.standard.string(forKey: "USER_NAME") ?? "ゲスト"

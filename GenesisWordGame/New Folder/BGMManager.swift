@@ -6,42 +6,35 @@
 //
 
 
-import Foundation
 import AVFoundation
 
 class BGMManager {
 
     static let shared = BGMManager()
 
-    private var audioPlayer: AVAudioPlayer?
+    var player: AVAudioPlayer?
 
-    private init() {}
+    func playBGM(name: String) {
 
-    func playBGM() {
-
-        // 既に再生中なら何もしない
-        if audioPlayer?.isPlaying == true {
-            return
-        }
-            guard let url = Bundle.main.url(
-                forResource: "Genesis_of_Light",
-                withExtension: "mp3"
-            ) else {
-                return
-            }
+        guard let url = Bundle.main.url(
+            forResource: name,
+            withExtension: "mp3"
+        ) else { return }
 
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: url)
-            audioPlayer?.numberOfLoops = -1
-            audioPlayer?.prepareToPlay()
-            audioPlayer?.play()
+
+            player = try AVAudioPlayer(contentsOf: url)
+            player?.numberOfLoops = -1
+            player?.play()
 
         } catch {
+
             print(error)
         }
     }
 
     func stopBGM() {
-        audioPlayer?.stop()
+
+        player?.stop()
     }
 }

@@ -150,6 +150,10 @@ class ResultViewController: UIViewController {
     @IBAction func tapHomeButton(
         _ sender: UIButton
     ) {
+        
+        BGMManager.shared.playBGM(
+                name: "Genesis_of_Light"
+            )
 
         shouldMoveQuiz = false
 
