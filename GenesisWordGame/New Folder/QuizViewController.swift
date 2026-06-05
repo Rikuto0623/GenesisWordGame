@@ -20,6 +20,9 @@ class QuizViewController: UIViewController {
 
     var audioPlayer: AVAudioPlayer?
 
+    // 選択されたDay
+    var selectedDay: GenesisID?
+
     // クイズ配列
     var quizzes: [Quiz] = []
 
@@ -38,8 +41,18 @@ class QuizViewController: UIViewController {
         // ポイント読み込み
         point = UserDefaults.standard.integer(forKey: "POINT")
 
-        // クイズ5問取得
-        quizzes = Array(OneDayQuizzes.shuffled().prefix(5))
+        // 選択されたDayの問題を取得
+        if let day = selectedDay {
+
+            let pool = GenesisQuizzes[day] ?? []
+
+            quizzes = Array(pool.shuffled().prefix(5))
+
+        } else {
+
+            print("Dayが選択されていません")
+            return
+        }
 
         print("問題数:", quizzes.count)
 
@@ -97,16 +110,16 @@ class QuizViewController: UIViewController {
 
         do {
 
-            audioPlayer =
-            try AVAudioPlayer(
+            audioPlayer = try AVAudioPlayer(
                 contentsOf: URL(fileURLWithPath: path)
             )
 
+            audioPlayer?.prepareToPlay()
             audioPlayer?.play()
 
         } catch {
 
-            print(error)
+            print("再生エラー:", error)
         }
     }
 
@@ -157,6 +170,7 @@ class QuizViewController: UIViewController {
             playSound(soundName: "Incorrect")
         }
 
+        // ポイント保存
         UserDefaults.standard.set(
             point,
             forKey: "POINT"
@@ -202,9 +216,12 @@ class QuizViewController: UIViewController {
     // 音声再生ボタン
     @IBAction func playButtonTapped(_ sender: UIButton) {
 
-        let quiz = quizzes[currentQuestion]
+        if currentQuestion < quizzes.count {
 
-        playSound(soundName: quiz.soundName)
+            let quiz = quizzes[currentQuestion]
+
+            playSound(soundName: quiz.soundName)
+        }
     }
 
     // Resultへ値渡し
@@ -219,7 +236,11 @@ class QuizViewController: UIViewController {
             segue.destination as! ResultViewController
 
             resultVC.score = score
+
+            // 現在の総ポイント
             resultVC.point = point
+
+            // 今回獲得ポイント
             resultVC.point2 = score * 7
         }
     }
