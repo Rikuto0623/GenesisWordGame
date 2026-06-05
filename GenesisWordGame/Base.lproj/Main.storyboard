@@ -208,7 +208,7 @@
             <objects>
                 <viewController id="dUp-0X-ggf" customClass="QuizViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L0r-be-14E">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j41-V4-EDd">
@@ -571,74 +571,71 @@
             </objects>
             <point key="canvasLocation" x="2295.5223880597014" y="-623.34096109839811"/>
         </scene>
-        <!--Setting View Controller-->
+        <!--Day Select View Controller-->
         <scene sceneID="KFb-9W-A8f">
             <objects>
-                <viewController id="nj8-0z-HBg" customClass="SettingViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nj8-0z-HBg" customClass="DaySelectViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sp9-bv-hHJ">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enF-zC-4XS">
-                                <rect key="frame" x="92" y="124" width="75" height="56"/>
+                                <rect key="frame" x="92" y="145" width="75" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="1日目"/>
                                 <connections>
+                                    <action selector="oneDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="qh7-n1-flH"/>
                                     <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="ldF-UU-0we"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eD2-VX-urs">
-                                <rect key="frame" x="232" y="124" width="75" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="2日目"/>
-                                <connections>
-                                    <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="46i-cd-EUz"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxn-MX-3Km">
-                                <rect key="frame" x="92" y="209" width="75" height="56"/>
+                                <rect key="frame" x="92" y="274" width="75" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="3日目"/>
                                 <connections>
+                                    <action selector="thirdDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="0tY-LA-UCQ"/>
                                     <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="wlB-w8-ts9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNC-mb-ipu">
-                                <rect key="frame" x="232" y="209" width="75" height="56"/>
+                                <rect key="frame" x="232" y="274" width="75" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="4日目"/>
                                 <connections>
+                                    <action selector="fourthDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="YMO-Ap-9PL"/>
                                     <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="Gvv-xh-0HC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4S-Ww-32B">
-                                <rect key="frame" x="92" y="314" width="75" height="56"/>
+                                <rect key="frame" x="92" y="399" width="75" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="5日目"/>
                                 <connections>
+                                    <action selector="fifthDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="yzA-Yw-DOR"/>
                                     <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="eGy-wi-kSR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTL-Ha-egE">
-                                <rect key="frame" x="232" y="314" width="75" height="56"/>
+                                <rect key="frame" x="232" y="399" width="75" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="6日目"/>
                                 <connections>
+                                    <action selector="sixthDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="ZkC-hg-ftD"/>
                                     <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="Tp9-6m-Vnz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulu-4A-AkY">
-                                <rect key="frame" x="164" y="426" width="75" height="56"/>
+                                <rect key="frame" x="164" y="525" width="75" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="7日目"/>
                                 <connections>
+                                    <action selector="seventhDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="WgM-EY-OBb"/>
                                     <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="jV2-oc-bSt"/>
                                 </connections>
                             </button>
@@ -655,6 +652,16 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="jmU-4O-BnH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eD2-VX-urs">
+                                <rect key="frame" x="232" y="145" width="75" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="2日目"/>
+                                <connections>
+                                    <action selector="secondDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="GLJ-lS-MYZ"/>
+                                    <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="46i-cd-EUz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iSV-BO-A1r"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -667,7 +674,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Gvv-xh-0HC"/>
+        <segue reference="ldF-UU-0we"/>
         <segue reference="jmU-4O-BnH"/>
     </inferredMetricsTieBreakers>
     <resources>
