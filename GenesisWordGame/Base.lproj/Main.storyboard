@@ -630,7 +630,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulu-4A-AkY">
-                                <rect key="frame" x="164" y="525" width="75" height="56"/>
+                                <rect key="frame" x="92" y="525" width="215" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="7日目"/>
@@ -674,7 +674,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ldF-UU-0we"/>
+        <segue reference="eGy-wi-kSR"/>
         <segue reference="jmU-4O-BnH"/>
     </inferredMetricsTieBreakers>
     <resources>
