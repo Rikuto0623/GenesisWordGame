@@ -37,7 +37,7 @@ class QuizViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // ホームBGMを停止
         BGMManager.shared.stopBGM()
 
@@ -156,7 +156,12 @@ class QuizViewController: UIViewController {
         if selectedIndex == correctAnswer {
 
             resultLabel.text = "⭕ 正解"
-            resultLabel.textColor = .systemPink
+            resultLabel.textColor = UIColor(
+                red: 76/255,
+                green: 175/255,
+                blue: 80/255,
+                alpha: 1.0
+            )
 
             score += 1
             point += 7
@@ -166,7 +171,12 @@ class QuizViewController: UIViewController {
         } else {
 
             resultLabel.text = "✖️ 不正解"
-            resultLabel.textColor = .lightGray
+            resultLabel.textColor = UIColor(
+                red: 216/255,
+                green: 67/255,
+                blue: 21/255,
+                alpha: 1.0
+            )
 
             point = max(0, point - 3)
 

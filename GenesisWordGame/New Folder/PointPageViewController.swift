@@ -19,6 +19,13 @@ class PointPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        pointLabel.textColor = UIColor(
+            red: 255/255,
+            green: 215/255,
+            blue: 0/255,
+            alpha: 1.0
+        )
+        
         let name = UserDefaults.standard.string(forKey: "USER_NAME") ?? "ゲスト"
         nameLabel.text = name
         
