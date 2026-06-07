@@ -38,6 +38,8 @@ class QuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("QuizViewController loaded")
+        
         // ホームBGMを停止
         BGMManager.shared.stopBGM()
 
@@ -70,6 +72,13 @@ class QuizViewController: UIViewController {
 
     // 問題表示
     func showQuestion() {
+        
+        print("showQuestion \(currentQuestion)")
+        
+        if currentQuestion >= quizzes.count {
+            return
+        }
+    
 
         if currentQuestion >= quizzes.count {
             return
