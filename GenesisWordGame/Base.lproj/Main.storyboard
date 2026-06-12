@@ -208,7 +208,7 @@
             <objects>
                 <viewController id="dUp-0X-ggf" customClass="QuizViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L0r-be-14E">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j41-V4-EDd">
@@ -710,8 +710,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="al2-n8-8Q2"/>
-        <segue reference="DbG-8u-yfv"/>
+        <segue reference="jV2-oc-bSt"/>
+        <segue reference="Hv9-Rl-dTX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Earth" width="1334" height="1179"/>
