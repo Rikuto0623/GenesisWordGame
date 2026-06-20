@@ -174,7 +174,71 @@ let OneDayQuizzes: [Quiz] = [
     H･e･a･v･e･n･s だよ。
     頑張ってこのスペルを覚えよう
     """
-        )
+        ),
+//_________________________________
+    Quiz(
+        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        answer: 0,
+        soundName: "Heavens",
+        explanation: """
+H･e･a･v･e･n･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        answer: 0,
+        soundName: "Heavens",
+        explanation: """
+H･e･a･v･e･n･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        answer: 0,
+        soundName: "Heavens",
+        explanation: """
+H･e･a･v･e･n･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        answer: 0,
+        soundName: "Heavens",
+        explanation: """
+H･e･a･v･e･n･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        answer: 0,
+        soundName: "Heavens",
+        explanation: """
+H･e･a･v･e･n･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        answer: 0,
+        soundName: "Heavens",
+        explanation: """
+H･e･a･v･e･n･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        answer: 0,
+        soundName: "Heavens",
+        explanation: """
+H･e･a･v･e･n･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    )
 ]
 
 // 第二日
