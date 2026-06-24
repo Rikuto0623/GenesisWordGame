@@ -698,24 +698,15 @@
                                     <segue destination="dUp-0X-ggf" kind="show" identifier="toQuiz" id="46i-cd-EUz"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="C1K-uI-Umi">
-                                <rect key="frame" x="81" y="589" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxb-0b-mKk">
+                                <rect key="frame" x="150" y="629" width="104" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">『https://typing.twi1.me/』これをGoogleに貼り付けるとタイピング講座に行くよ。
-検索するところがあるから、その所に「One day」,「Second day」,「Third day」,「Fourth day」,「Fifth day」,「Sixth day」,「Seventh day」とそれぞれ打ち込めばタイピン部が出てくるよ。</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="18I-Vi-lJy">
-                                <rect key="frame" x="16" y="589" width="45" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">⇨
-スクロースできるよ</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="タイピング"/>
+                                <connections>
+                                    <segue destination="gy2-4t-Oiy" kind="show" id="avJ-bq-FQE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iSV-BO-A1r"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -726,10 +717,200 @@
             </objects>
             <point key="canvasLocation" x="938.80597014925365" y="777.80320366132719"/>
         </scene>
+        <!--Name Input View Controller-->
+        <scene sceneID="MRK-T3-3pN">
+            <objects>
+                <viewController id="gy2-4t-Oiy" customClass="NameInputViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qpd-ej-hOC">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="名前" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pbX-vE-7tK">
+                                <rect key="frame" x="16" y="221" width="370" height="51.666666666666686"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORN-aT-JT8">
+                                <rect key="frame" x="141" y="730" width="120" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="ホームへ戻る">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.94117647059999998" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.27058823529999998" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="fKg-3A-Nat"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHN-Ih-yxp">
+                                <rect key="frame" x="141" y="420" width="120" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="次へ">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="gy2-4t-Oiy" eventType="touchUpInside" id="SgG-me-xFX"/>
+                                    <action selector="saveButtonTapped:" destination="gy2-4t-Oiy" eventType="touchUpInside" id="HAo-lg-dRF"/>
+                                    <segue destination="89e-Kv-hWW" kind="show" identifier="toCharacter" id="cge-39-elO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TSV-kS-kmq"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="t1x-xm-T1K"/>
+                    <connections>
+                        <outlet property="nameInputTextField" destination="pbX-vE-7tK" id="OlQ-ji-pKE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dSJ-xs-5fE" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21" y="778"/>
+        </scene>
+        <!--Character Select View Controller-->
+        <scene sceneID="iEF-VG-uE7">
+            <objects>
+                <viewController id="89e-Kv-hWW" customClass="CharacterSelectViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kMj-Dy-vy9">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAY-ju-e7n">
+                                <rect key="frame" x="141" y="730" width="120" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="ホームへ戻る">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="0.90196078430000004" green="0.94117647059999998" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.27058823529999998" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvJ-jh-eGr">
+                                <rect key="frame" x="61" y="183" width="88" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="大地">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="earthTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="Jr0-ck-JNs"/>
+                                    <action selector="nextButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="WH8-WI-QgH"/>
+                                    <action selector="saveButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="Lw1-9X-IL5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFJ-xP-59w">
+                                <rect key="frame" x="157" y="183" width="88" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="太陽">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="aeb-So-5Ef"/>
+                                    <action selector="saveButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="PG9-Z9-eum"/>
+                                    <action selector="sunTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="SbK-8G-HMD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="505-pL-fVa">
+                                <rect key="frame" x="253" y="183" width="88" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="海">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="MpD-VT-3lj"/>
+                                    <action selector="saveButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="ujj-Qi-H0l"/>
+                                    <action selector="seaTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="4tY-U6-VRf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yni-pk-i72">
+                                <rect key="frame" x="61" y="283" width="88" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="星">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="h5Z-Zl-XSD"/>
+                                    <action selector="saveButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="4gI-dk-hWV"/>
+                                    <action selector="starTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="bc0-Rd-Kub"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3QG-jL-Q4X">
+                                <rect key="frame" x="157" y="283" width="88" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="月">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="moonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="rzG-dy-wRm"/>
+                                    <action selector="nextButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="SV0-S6-06P"/>
+                                    <action selector="saveButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="Oec-hY-YyI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dN8-J8-kIC">
+                                <rect key="frame" x="253" y="283" width="88" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="人">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="humanTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="rfD-xR-275"/>
+                                    <action selector="nextButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="xAQ-gA-h0z"/>
+                                    <action selector="saveButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="vsc-ZT-rFy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UzH-Gc-Rwe">
+                                <rect key="frame" x="157" y="382" width="88" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="神">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="godTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="LXq-xN-d6F"/>
+                                    <action selector="nextButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="APW-NU-1rn"/>
+                                    <action selector="saveButtonTapped:" destination="89e-Kv-hWW" eventType="touchUpInside" id="18c-NK-jQz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kW9-6H-6sM"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oXD-Rh-a0G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t6G-K8-Jjl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20.8955223880597" y="1500"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="jV2-oc-bSt"/>
-        <segue reference="jmU-4O-BnH"/>
+        <segue reference="fKg-3A-Nat"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Earth" width="1334" height="1179"/>
