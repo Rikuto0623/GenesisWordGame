@@ -264,6 +264,7 @@ class QuizViewController: UIViewController {
 
             // 今回獲得ポイント
             resultVC.point2 = score * 7
+            resultVC.selectedDay = selectedDay
         }
     }
 }
