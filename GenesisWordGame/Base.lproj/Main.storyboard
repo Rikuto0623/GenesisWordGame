@@ -748,24 +748,36 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Fourth day"/>
+                                <connections>
+                                    <action selector="fourthdayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="JSg-wq-xeA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PJ-kK-b61">
                                 <rect key="frame" x="158" y="482" width="90" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Fifth day"/>
+                                <connections>
+                                    <action selector="fifthdayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="YQc-S9-p7J"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VcJ-Id-xAi">
                                 <rect key="frame" x="155" y="576" width="94" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Sixth day"/>
+                                <connections>
+                                    <action selector="sixthdayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="quS-Ix-8KF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBc-pV-JXI">
                                 <rect key="frame" x="142" y="665" width="118" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Seventh day"/>
+                                <connections>
+                                    <action selector="seventhdayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="VUe-B2-DGT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehH-xy-LMY">
                                 <rect key="frame" x="143" y="734" width="120" height="34"/>

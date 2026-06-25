@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         present(safariVC, animated: true)
     }
     @IBAction func thirddayTypingButtonTapped(_ sender: UIButton) {
-        guard let url = URL(string: "https://typing.twi1.me/game/654712?blid=67081&bsn=3") else {
+        guard let url = URL(string: "https://typing.twi1.me/game/654724?blid=67081&bsn=3") else {
             return
         }
         
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         present(safariVC, animated: true)
     }
     @IBAction func fourthdayTypingButtonTapped(_ sender: UIButton) {
-        guard let url = URL(string: "https://typing.twi1.me/game/654712?blid=67081&bsn=4") else {
+        guard let url = URL(string: "https://typing.twi1.me/game/654726?blid=67081&bsn=4") else {
             return
         }
         
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         present(safariVC, animated: true)
     }
     @IBAction func fifthdayTypingButtonTapped(_ sender: UIButton) {
-        guard let url = URL(string: "https://typing.twi1.me/game/654712?blid=67081&bsn=5") else {
+        guard let url = URL(string: "https://typing.twi1.me/game/654935?blid=67081&bsn=5") else {
             return
         }
         
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         present(safariVC, animated: true)
     }
     @IBAction func sixthdayTypingButtonTapped(_ sender: UIButton) {
-        guard let url = URL(string: "https://typing.twi1.me/game/654712?blid=67081&bsn=6") else {
+        guard let url = URL(string: "https://typing.twi1.me/game/655470?blid=67081&bsn=6") else {
             return
         }
         
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
         present(safariVC, animated: true)
     }
     @IBAction func seventhdayTypingButtonTapped(_ sender: UIButton) {
-        guard let url = URL(string: "https://typing.twi1.me/game/654712?blid=67081&bsn=7") else {
+        guard let url = URL(string: "https://typing.twi1.me/game/655477?blid=67081&bsn=7") else {
             return
         }
         

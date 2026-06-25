@@ -175,31 +175,30 @@ let OneDayQuizzes: [Quiz] = [
     頑張ってこのスペルを覚えよう
     """
         ),
-//_________________________________
     Quiz(
-        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
-        answer: 0,
-        soundName: "Heavens",
+        choices: ["Is", "In", "On"],
+        answer: 1,
+        soundName: "In",
         explanation: """
-H･e･a･v･e･n･s だよ。
+In だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
-        answer: 0,
-        soundName: "Heavens",
+        choices: ["Ret", "Lt", "Let"],
+        answer: 2,
+        soundName: "Let",
         explanation: """
-H･e･a･v･e･n･s だよ。
+Let だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        choices: ["Light", "Right", "Iight"],
         answer: 0,
-        soundName: "Heavens",
+        soundName: "Light",
         explanation: """
-H･e･a･v･e･n･s だよ。
+Light だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
