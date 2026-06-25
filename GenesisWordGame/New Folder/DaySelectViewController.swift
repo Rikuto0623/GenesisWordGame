@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SafariServices
 
 class DaySelectViewController: UIViewController {
     
@@ -94,13 +93,5 @@ class DaySelectViewController: UIViewController {
             
             vc.selectedDay = selectedDay
         }
-    }
-    @IBAction func typingButtonTapped(_ sender: UIButton) {
-        guard let url = URL(string: "https://typing.twi1.me/game/654712?blid=67081&bsn=1") else {
-            return
-        }
-        
-        let safariVC = SFSafariViewController(url: url)
-        present(safariVC, animated: true)
     }
 }
