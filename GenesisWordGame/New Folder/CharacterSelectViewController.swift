@@ -9,14 +9,10 @@ import UIKit
 
 class CharacterSelectViewController: UIViewController {
 
+    var selectedCharacter: String?
+
     func selectCharacter(name: String) {
-
-        PlayerData.shared.characterName = name
-
-        performSegue(
-            withIdentifier: "toTypingDaySelect",
-            sender: nil
-        )
+        selectedCharacter = name
     }
 
     @IBAction func earthTapped(_ sender: UIButton) {
@@ -45,5 +41,19 @@ class CharacterSelectViewController: UIViewController {
 
     @IBAction func godTapped(_ sender: UIButton) {
         selectCharacter(name: "God")
+    }
+
+    @IBAction func nextTapped(_ sender: UIButton) {
+
+        guard let character = selectedCharacter else {
+            return
+        }
+
+        PlayerData.shared.characterName = character
+
+        performSegue(
+            withIdentifier: "toTypingDaySelect",
+            sender: nil
+        )
     }
 }
