@@ -176,65 +176,65 @@ let OneDayQuizzes: [Quiz] = [
     """
         ),
     Quiz(
-        choices: ["Is", "In", "On"],
+        choices: ["I･s", "I･n", "O･n"],
         answer: 1,
         soundName: "In",
         explanation: """
-In だよ。
+I･n だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["Ret", "Lt", "Let"],
+        choices: ["R･e･t", "L･t", "L･e･t"],
         answer: 2,
         soundName: "Let",
         explanation: """
-Let だよ。
+L･e･t だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["Light", "Right", "Iight"],
+        choices: ["L･i･g･h･t", "R･i･g･h･t", "I･i･g･h･t"],
         answer: 0,
         soundName: "Light",
         explanation: """
-Light だよ。
+L･i･g･h･t だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
-        answer: 0,
-        soundName: "Heavens",
+        choices: ["M･o･r･i･n･g", "M･o･r･n･i･n･g", "M･o･n･i･n･g"],
+        answer: 1,
+        soundName: "Morning",
+        explanation: """
+M･o･r･n･i･n･g だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["M･o･r･n･i･n･g", "M･o･b･i･n･g", "M･o･v･i･n･g"],
+        answer: 2,
+        soundName: "Moving",
         explanation: """
 H･e･a･v･e･n･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+        choices: ["N･i･g･h･t", "L･i･g･h･t", "R･i･g･h･t"],
         answer: 0,
-        soundName: "Heavens",
+        soundName: "Night",
         explanation: """
-H･e･a･v･e･n･s だよ。
+N･i･g･h･t だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
-        answer: 0,
-        soundName: "Heavens",
+        choices: ["F", "O･f", "F･o"],
+        answer: 1,
+        soundName: "Of",
         explanation: """
-H･e･a･v･e･n･s だよ。
-頑張ってこのスペルを覚えよう
-"""
-    ),
-    Quiz(
-        choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
-        answer: 0,
-        soundName: "Heavens",
-        explanation: """
-H･e･a･v･e･n･s だよ。
+O･f だよ。
 頑張ってこのスペルを覚えよう
 """
     )
