@@ -237,6 +237,24 @@ N･i･g･h･t だよ。
 O･f だよ。
 頑張ってこのスペルを覚えよう
 """
+    ),
+    Quiz(
+        choices: ["O･e", "N･e", "O･n･e"],
+        answer: 2,
+        soundName: "One",
+        explanation: """
+O･n･e だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["O･v･e･r", "O･e･r", "V･e･r"],
+        answer: 0,
+        soundName: "Over",
+        explanation: """
+O･v･e･r だよ。
+頑張ってこのスペルを覚えよう
+"""
     )
 ]
 
