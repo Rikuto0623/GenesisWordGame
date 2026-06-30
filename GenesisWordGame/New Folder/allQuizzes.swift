@@ -86,7 +86,7 @@ let OneDayQuizzes: [Quiz] = [
             answer: 0,
             soundName: "Deep",
             explanation: """
-    D･a･r･k･n･e･s･s だよ。
+    D･e･e･p だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
