@@ -255,6 +255,114 @@ O･n･e だよ。
 O･v･e･r だよ。
 頑張ってこのスペルを覚えよう
 """
+    ),
+    Quiz(
+        choices: ["S･e･d", "S･a･i･d", "S･i･d"],
+        answer: 1,
+        soundName: "Said",
+        explanation: """
+S･a･i･d だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["S･o･w", "S･w･a", "S･a･w"],
+        answer: 2,
+        soundName: "Saw",
+        explanation: """
+S･a･w だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["S･e･p･a･r･a･t･e･d", "S･p･i･r･i･t", "S･e･p･a･r･t･e･d"],
+        answer: 0,
+        soundName: "Separated",
+        explanation: """
+S･e･p･a･r･a･t･e･d だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["S･p･i･r･t", "S･p･i･r･i･t", "S･p･r･i･t"],
+        answer: 1,
+        soundName: "Spirit",
+        explanation: """
+S･p･i･r･i･t だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["T･h･o･t", "T･h･e･t", "T･h･a･t"],
+        answer: 2,
+        soundName: "That",
+        explanation: """
+T･h･a･t だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["T･h･e", "Z･a", "Z･e"],
+        answer: 0,
+        soundName: "The",
+        explanation: """
+T･h･e だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["S･e･r･e", "T･h･e･r･e", "Z･e･r･e"],
+        answer: 1,
+        soundName: "There",
+        explanation: """
+T･h･e･r･e だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["O･p･o･n", "U･q･o･n", "U･p･o･n"],
+        answer: 2,
+        soundName: "Upon",
+        explanation: """
+U･p･o･n だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["V･o･i･d", "V･o･d", "V･i･d"],
+        answer: 0,
+        soundName: "Void",
+        explanation: """
+V･o･i･d だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["Q･a･w", "W･a･s", "G･a･s"],
+        answer: 1,
+        soundName: "Was",
+        explanation: """
+W･a･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["W･a･t･s", "W･o･r･d", "W･a･t･e･r･s"],
+        answer: 2,
+        soundName: "Waters",
+        explanation: """
+W･a･t･e･r･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["W･i･t･h･o･u･t", "W･a･t･h･e･r･e･d", "W･a･t･r･e･r･e"],
+        answer: 0,
+        soundName: "Without",
+        explanation: """
+W･i･t･h･o･u･t だよ。
+頑張ってこのスペルを覚えよう
+"""
     )
 ]
 
