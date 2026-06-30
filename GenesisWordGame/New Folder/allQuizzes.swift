@@ -216,7 +216,7 @@ M･o･r･n･i･n･g だよ。
         answer: 2,
         soundName: "Moving",
         explanation: """
-H･e･a･v･e･n･s だよ。
+M･o･v･i･n･g だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
