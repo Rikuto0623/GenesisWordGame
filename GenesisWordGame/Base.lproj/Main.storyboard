@@ -221,7 +221,7 @@
             <objects>
                 <viewController id="dUp-0X-ggf" customClass="QuizViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L0r-be-14E">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j41-V4-EDd">
@@ -607,7 +607,7 @@
                                 <buttonConfiguration key="configuration" style="gray" title="One day☀️🌃">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                     <color key="baseForegroundColor" red="1" green="0.84313725490196079" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.4743953339041096" green="0.5" blue="0.61656594144507126" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.47450980392156861" green="0.49803921568627452" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="oneDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="qh7-n1-flH"/>
@@ -635,7 +635,7 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Fourth day⭐️🌕">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                     <color key="baseForegroundColor" red="1" green="0.84313725490196079" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.40402598956180036" green="0.42046979100992876" blue="0.42373046874999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.40392156862745099" green="0.41960784313725491" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="fourthDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="YMO-Ap-9PL"/>
@@ -677,7 +677,7 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Seventh day👏">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                     <color key="baseForegroundColor" red="1" green="0.84313725490196079" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.11076905217503948" green="0.11295537312917971" blue="0.3546865057945251" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.10980392156862745" green="0.11372549019607843" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="seventhDayTapped:" destination="nj8-0z-HBg" eventType="touchUpInside" id="WgM-EY-OBb"/>
@@ -733,7 +733,10 @@
                                 <rect key="frame" x="149" y="194" width="114" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Second day"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Second day">
+                                    <color key="baseForegroundColor" red="1" green="0.84313725490000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.18039215689999999" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="seconddayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="MqS-RW-ina"/>
                                 </connections>
@@ -742,7 +745,10 @@
                                 <rect key="frame" x="153" y="288" width="96" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Third day"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Third day">
+                                    <color key="baseForegroundColor" red="1" green="0.84313725490000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.37254901959999998" green="0.68627450980000004" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="thirddayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="lRd-eO-dYQ"/>
                                 </connections>
@@ -751,7 +757,10 @@
                                 <rect key="frame" x="149" y="384" width="106" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Fourth day"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Fourth day">
+                                    <color key="baseForegroundColor" red="1" green="0.84313725490000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.4039215686" green="0.41960784309999999" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="fourthdayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="JSg-wq-xeA"/>
                                 </connections>
@@ -760,7 +769,10 @@
                                 <rect key="frame" x="158" y="482" width="90" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Fifth day"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Fifth day">
+                                    <color key="baseForegroundColor" red="1" green="0.84313725490000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.2470588235" green="0.65490196079999996" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="fifthdayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="YQc-S9-p7J"/>
                                 </connections>
@@ -769,7 +781,10 @@
                                 <rect key="frame" x="155" y="576" width="94" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Sixth day"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Sixth day">
+                                    <color key="baseForegroundColor" red="1" green="0.84313725490000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.5450980392" green="0.41960784309999999" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="sixthdayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="quS-Ix-8KF"/>
                                 </connections>
@@ -778,7 +793,10 @@
                                 <rect key="frame" x="142" y="665" width="118" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Seventh day"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Seventh day">
+                                    <color key="baseForegroundColor" red="1" green="0.84313725490000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.10980392160000001" green="0.1137254902" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="seventhdayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="VUe-B2-DGT"/>
                                 </connections>
@@ -800,7 +818,10 @@
                                 <rect key="frame" x="160" y="110" width="88" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="One day"/>
+                                <buttonConfiguration key="configuration" style="gray" title="One day">
+                                    <color key="baseForegroundColor" red="1" green="0.84313725490000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.47439533389999999" green="0.5" blue="0.61656594139999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="onedayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="lrP-gw-2ny"/>
                                 </connections>
@@ -879,7 +900,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Tp9-6m-Vnz"/>
-        <segue reference="jmU-4O-BnH"/>
+        <segue reference="jdD-fW-3aT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Earth" width="1334" height="1179"/>
