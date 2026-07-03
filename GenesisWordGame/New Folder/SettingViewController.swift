@@ -13,6 +13,9 @@ class SettingViewController: UIViewController {
     
     @IBAction func saveButtonTapped(_ sender: UIButton) {
         
+        // ホームBGMを停止
+        BGMManager.shared.stopBGM()
+        
         UserDefaults.standard.set(
             nameTextField.text,
             forKey: "USER_NAME"

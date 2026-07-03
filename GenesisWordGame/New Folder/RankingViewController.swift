@@ -18,15 +18,16 @@ class RankingViewController: UIViewController,
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // ホームBGMを停止
+        BGMManager.shared.stopBGM()
+
         tableView.delegate = self
         tableView.dataSource = self
 
         loadRanking()
     }
 
-    override func viewWillAppear(
-        _ animated: Bool
-    ) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
         loadRanking()
@@ -40,8 +41,7 @@ class RankingViewController: UIViewController,
         ) as? [[String: Any]] ?? []
 
         rankingData.sort {
-            ($0["point"] as? Int ?? 0)
-            >
+            ($0["point"] as? Int ?? 0) >
             ($1["point"] as? Int ?? 0)
         }
 
@@ -61,14 +61,12 @@ class RankingViewController: UIViewController,
         cellForRowAt indexPath: IndexPath
     ) -> UITableViewCell {
 
-        let cell =
-        tableView.dequeueReusableCell(
+        let cell = tableView.dequeueReusableCell(
             withIdentifier: "RankingCell",
             for: indexPath
         )
 
-        let player =
-        rankingData[indexPath.row]
+        let player = rankingData[indexPath.row]
 
         let name =
         player["name"] as? String ?? "ゲスト"

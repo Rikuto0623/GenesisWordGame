@@ -8,168 +8,123 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    
+
     @IBOutlet weak var scoreLabel: UITextView!
     @IBOutlet weak var messageLabel: UITextView!
     @IBOutlet weak var medalImage: UIImageView!
     @IBOutlet weak var pointLabel: UILabel!
-    
+
     var score = 0
     var point = 0
     var point2 = 0
     var selectedDay: GenesisID?
-    
+
     var shouldMoveQuiz = true
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // ホームBGMを停止
+        BGMManager.shared.stopBGM()
         
+        point = UserDefaults.standard.integer(forKey: "POINT")
         pointLabel.text = "現在のポイント: \(point)"
-        
-        medalImage.layer.cornerRadius =
-        medalImage.frame.width / 2
-        
+
+        medalImage.layer.cornerRadius = medalImage.frame.width / 2
         medalImage.clipsToBounds = true
-        
+
         scoreLabel.text = "\(score) / 5問正解!!"
-        
+
         if score == 5 {
-            
             messageLabel.text = "Perfect!! 🎉"
-            
         } else if score >= 4 {
-            
             messageLabel.text = "You can do it 😄😀"
-            
         } else if score >= 3 {
-            
             messageLabel.text = "Great Job! 😄"
-            
         } else {
-            
             messageLabel.text = "Try Again! 🙂"
         }
-        
+
         saveRanking()
-        
         changeCharacter()
-        
-        DispatchQueue.main.asyncAfter(
-            deadline: .now() + 4.55
-        ) {
-            
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4.55) {
             if self.shouldMoveQuiz {
-                
-                self.performSegue(
-                    withIdentifier: "showQuiz",
-                    sender: nil
-                )
+                self.performSegue(withIdentifier: "showQuiz", sender: nil)
             }
         }
     }
-    
+
     func saveRanking() {
-        
-        let name =
-        UserDefaults.standard.string(
-            forKey: "USER_NAME"
-        ) ?? "ゲスト"
-        
-        var ranking =
-        UserDefaults.standard.array(
-            forKey: "RANKING"
-        ) as? [[String: Any]] ?? []
-        
+
+        let name = UserDefaults.standard.string(forKey: "USER_NAME") ?? "ゲスト"
+
+        var ranking = UserDefaults.standard.array(forKey: "RANKING") as? [[String: Any]] ?? []
+
         var found = false
-        
+
         for i in 0..<ranking.count {
-            
+
             if ranking[i]["name"] as? String == name {
-                
-                let oldPoint =
-                ranking[i]["point"] as? Int ?? 0
-                
+
+                let oldPoint = ranking[i]["point"] as? Int ?? 0
+
                 if point > oldPoint {
-                    
                     ranking[i]["point"] = point
                 }
-                
+
                 found = true
                 break
             }
         }
-        
+
         if !found {
-            
             ranking.append([
                 "name": name,
                 "point": point
             ])
         }
-        
+
         ranking.sort {
-            ($0["point"] as? Int ?? 0)
-            >
+            ($0["point"] as? Int ?? 0) >
             ($1["point"] as? Int ?? 0)
         }
-        
-        UserDefaults.standard.set(
-            ranking,
-            forKey: "RANKING"
-        )
+
+        UserDefaults.standard.set(ranking, forKey: "RANKING")
     }
-    
+
     func changeCharacter() {
-        
+
         if point2 >= 35 {
-            
-            medalImage.image =
-            UIImage(named: "medalImageGod")
-            
+            medalImage.image = UIImage(named: "medalImageGod")
         } else if point2 >= 28 {
-            
-            medalImage.image =
-            UIImage(named: "medalImageSun")
-            
+            medalImage.image = UIImage(named: "medalImageSun")
         } else if point2 >= 21 {
-            
-            medalImage.image =
-            UIImage(named: "medalImageMoon")
-            
+            medalImage.image = UIImage(named: "medalImageMoon")
         } else if point2 >= 14 {
-            
-            medalImage.image =
-            UIImage(named: "medalImageStar")
-            
+            medalImage.image = UIImage(named: "medalImageStar")
         } else {
-            
-            medalImage.image =
-            UIImage(named: "medalImageDarkness")
+            medalImage.image = UIImage(named: "medalImageDarkness")
         }
     }
-    
-    @IBAction func tapHomeButton(
-        _ sender: UIButton
-    ) {
-        
-        BGMManager.shared.playBGM(
-            name: "Genesis_of_Light"
-        )
-        
+
+    @IBAction func tapHomeButton(_ sender: UIButton) {
+
+        BGMManager.shared.playBGM(name: "Genesis_of_Light")
+
         shouldMoveQuiz = false
-        
+
         dismiss(animated: true)
     }
-    override func prepare(
-        for segue: UIStoryboardSegue,
-        sender: Any?
-    ) {
-        
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
         if segue.identifier == "showQuiz" {
-            
-            let quizVC =
-            segue.destination as! QuizViewController
-            
+
+            guard let quizVC = segue.destination as? QuizViewController else {
+                return
+            }
+
             quizVC.selectedDay = selectedDay
         }
     }
