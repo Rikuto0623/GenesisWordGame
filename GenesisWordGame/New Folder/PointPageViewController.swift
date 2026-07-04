@@ -57,27 +57,27 @@ class PointPageViewController: UIViewController {
 
     func changeCharacter() {
 
-        if point >= 63217 {
+        if point >= 6230 {
 
             characterImageView.image = UIImage(named: "God")
 
-        } else if point >= 5678 {
+        } else if point >= 2500 {
 
             characterImageView.image = UIImage(named: "Human")
 
-        } else if point >= 3456 {
+        } else if point >= 2000 {
 
             characterImageView.image = UIImage(named: "Moon")
 
-        } else if point >= 1456 {
+        } else if point >= 1500 {
 
             characterImageView.image = UIImage(named: "Star")
 
-        } else if point >= 987 {
+        } else if point >= 1000 {
 
             characterImageView.image = UIImage(named: "Sea")
 
-        } else if point >= 567 {
+        } else if point >= 500 {
 
             characterImageView.image = UIImage(named: "Sun")
 
