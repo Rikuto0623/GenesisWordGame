@@ -394,6 +394,104 @@ let SixthDayQuizzes: [Quiz] = [
 
 // 第七日
 let SeventhDayQuizzes: [Quiz] = [
+    
+    Quiz(
+            choices: ["B･e･c･a･u･s･e", "B･a･c･a･u･s･e", "B･o･c･a･u･s･e"],
+            answer: 0,
+            soundName: "Because",
+            explanation: """
+    B･e･c･a･u･s･e だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+
+        Quiz(
+            choices: ["B･r･e･s･s･e･d", "B･l･e･s･s･e･d", "B･i･e･s･s･e･d"],
+            answer: 1,
+            soundName: "Blessed",
+            explanation: """
+    B･l･e･s･s･e･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["C･r･e･o･t･i･o･n", "C･r･e･a･c･i･o･n", "C･r･e･a･t･i･o･n"],
+            answer: 2,
+            soundName: "Creation",
+            explanation: """
+    C･r･e･a･t･i･o･n だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["F･i･n･i･s･h･e･d", "F･i･n･i･t･h･e･d", "F･i･n･i･c･h･e･d"],
+            answer: 0,
+            soundName: "Finished",
+            explanation: """
+    F･i･n･i･s･h･e･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["H･o･l･l･o･w･e･d", "H･a･l･l･o･w･e･d", "H･e･ll･o･w･e･d"],
+            answer: 1,
+            soundName: "Hallowed",
+            explanation: """
+    H･a･l･l･o･w･e･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["H･s･e･t", "H･e･s･t", "H･o･s･t"],
+            answer: 2,
+            soundName: "Host",
+            explanation: """
+    H･o･s･t だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["R･e･s･t･e･d", "R･a･s･t･e･d", "R･o･s･t･e･d"],
+            answer: 0,
+            soundName: "Rested",
+            explanation: """
+    R･e･s･t･e･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["S･e･b･e･n･t･h", "S･e･v･e･n･t･h", "S･e･v･e･m･t･h"],
+            answer: 1,
+            soundName: "Seventh",
+            explanation: """
+    S･e･v･e･n･t･h だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+    Quiz(
+        choices: ["T･h･o･s", "T･h･e･s", "T･h･u･s"],
+        answer: 2,
+        soundName: "Thus",
+        explanation: """
+T･h･u･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["W･o･r･k", "W･e･r･k", "W･r･k･d"],
+        answer: 0,
+        soundName: "Work",
+        explanation: """
+W･o･r･k だよ。
+頑張ってこのスペルを覚えよう
+"""
+    )
 
 ]
 
