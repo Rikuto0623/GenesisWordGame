@@ -393,7 +393,7 @@ let SecondDayQuizzes: [Quiz] = [
         Quiz(
             choices: ["H･e･a･b･e･n", "H･e･a･v･e･n･s", "H･e･a･v･e･n"],
             answer: 2,
-            soundName: "H･e･a･v･e･n",
+            soundName: "Heaven",
             explanation: """
     H･e･a･v･e･n だよ。
     頑張ってこのスペルを覚えよう
