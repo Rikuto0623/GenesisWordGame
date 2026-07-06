@@ -369,7 +369,123 @@ W･i･t･h･o･u･t だよ。
 // 第二日
 let SecondDayQuizzes: [Quiz] = [
 
-    // ← 第二日の問題
+    Quiz(
+            choices: ["A･b･o･v･e", "a･v･o･v･e", "A･v･o･b･e"],
+            answer: 0,
+            soundName: "Above",
+            explanation: """
+    A･b･o･v･e だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+
+        Quiz(
+            choices: ["F･i･r･m･a･n･e･n･t", "F･i･r･m･a･m･e･n･t", "F･i･r･m･a･m･n･n･t"],
+            answer: 1,
+            soundName: "Firmament",
+            explanation: """
+    F･i･r･m･a･m･e･n･t だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["H･e･a･b･e･n", "H･e･a･v･e･n･s", "H･e･a･v･e･n"],
+            answer: 2,
+            soundName: "H･e･a･v･e･n",
+            explanation: """
+    H･e･a･v･e･n だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["I･t", "E･t", "L･t"],
+            answer: 0,
+            soundName: "It",
+            explanation: """
+    I･t だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["M･a･d･o", "M･a･d･e", "M･a･d"],
+            answer: 1,
+            soundName: "Made",
+            explanation: """
+    M･a･d･e だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["M･i･s･t", "M･i･d･m･t", "M･i･d･s･t"],
+            answer: 2,
+            soundName: "Midst",
+            explanation: """
+    M･i･d･s･t だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["S･e･c･o･n･d", "S･e･k･o･n･d", "S･e･g･o･n･d"],
+            answer: 0,
+            soundName: "Second",
+            explanation: """
+    S･e･c･o･n･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["S･e･q･a･r･a･t･e･d", "S･e･p･a･r･a･t･e", "S･e･p･a･r･a･t･e･d"],
+            answer: 1,
+            soundName: "Separate",
+            explanation: """
+    S･e･p･a･r･a･t･e だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["S･c･o", "S･o･o", "S･o"],
+            answer: 2,
+            soundName: "So",
+            explanation: """
+    S･o だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["U･n･d･e･r", "U･n･b･e･r", "U･m･d･e･r"],
+            answer: 0,
+            soundName: "Under",
+            explanation: """
+    U･n･d･e･r だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["W･d･e･r", "W･e･r･e", "W･r･e･r"],
+            answer: 1,
+            soundName: "Were",
+            explanation: """
+    W･e･r･e だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["W･h･e･c･h", "W･h･i･k･h", "W･h･i･c･h"],
+            answer: 2,
+            soundName: "Which",
+            explanation: """
+    W･h･i･c･h だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        )
 ]
 
 // 第三日
