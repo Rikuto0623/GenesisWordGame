@@ -21,13 +21,8 @@ class PointPageViewController: UIViewController {
         // ホームBGMを停止
         BGMManager.shared.stopBGM()
 
-        pointLabel.textColor = UIColor(
-            red: 255/255,
-            green: 215/255,
-            blue: 0/255,
-            alpha: 1.0
-        )
-
+        pointLabel.textColor = .systemGreen
+        
         let name = UserDefaults.standard.string(forKey: "USER_NAME") ?? "ゲスト"
         nameLabel.text = name
 
