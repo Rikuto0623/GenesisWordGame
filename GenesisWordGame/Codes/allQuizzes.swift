@@ -573,31 +573,31 @@ let FourthDayQuizzes: [Quiz] = [
     """
         ),
         Quiz(
-            choices: ["E･v･e･n･i･g", "E･v･n･i･n･g", "E･v･e･n･i･n･g"],
+            choices: ["Ruuule", "Rele", "Rule"],
             answer: 2,
-            soundName: "Evening",
+            soundName: "Rule",
             explanation: """
-    E･v･e･n･i･n･g だよ。
+    Rule だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･a･c･e", "F･a･e", "F･a･s･e"],
+            choices: ["Seasons", "Seasonx", "Seasonz"],
             answer: 0,
-            soundName: "Face",
+            soundName: "Seasons",
             explanation: """
-    F･a･c･e だよ。
+    Seasons だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･r･o･m", "F･o･r･m", "F･o･m"],
+            choices: ["Sot", "Set", "Sit"],
             answer: 1,
-            soundName: "Form",
+            soundName: "Set",
             explanation: """
-    F･o･r･m だよ。
+    Set だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
