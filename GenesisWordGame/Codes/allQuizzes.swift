@@ -31,7 +31,6 @@ let OneDayQuizzes: [Quiz] = [
     """
         ),
         
-
         Quiz(
             choices: ["B･e･e", "B･e", "E･e"],
             answer: 1,
@@ -497,80 +496,79 @@ let ThirdDayQuizzes: [Quiz] = [
 let FourthDayQuizzes: [Quiz] = [
 
     Quiz(
-            choices: ["A･n･d", "A･d", "I･n･d"],
+            choices: ["Also", "Arso", "Seso"],
             answer: 0,
-            soundName: "And",
+            soundName: "Also",
             explanation: """
-    A･n･d だよ。
+    Also だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
-
         Quiz(
-            choices: ["B･e･e", "B･e", "E･e"],
+            choices: ["Dayz", "Days", "Day"],
             answer: 1,
-            soundName: "Be",
+            soundName: "Days",
             explanation: """
-    B･e だよ。
+    Days だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["B･e･g･i･n･i･n･g", "B･e･n･i･n･n･i･n･g", "B･e･g･i･n･n･i･n･g"],
+            choices: ["Foulth", "Forth", "Fourth"],
             answer: 2,
-            soundName: "Beginning",
+            soundName: "Fourth",
             explanation: """
-    B･e･g･i･n･n･i･n･g だよ。
+    Fourth だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["C･a･l･l･e･d", "C･a･l･e･d", "C･a･l･l･e"],
+            choices: ["Give", "Geve", "Gibe"],
             answer: 0,
-            soundName: "Called",
+            soundName: "Give",
             explanation: """
-    C･a･l･l･e･d だよ。
+    Give だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["C･r･e･a･t･e", "C･r･e･a･t･e･d", "C･r･a･t･e･d"],
+            choices: ["Greet", "Great", "Greot"],
             answer: 1,
-            soundName: "Created",
+            soundName: "Great",
             explanation: """
-    C･r･e･a･t･e･d だよ。
+    Great だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["D･i･y", "D･a", "D･a･y"],
+            choices: ["Great", "Greatter", "Greater"],
             answer: 2,
-            soundName: "Day",
+            soundName: "Greater",
             explanation: """
-    D･a･y だよ。
+    Greater だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["D･e･e･p", "D･e･p", "D･e･e･q"],
+            choices: ["Lesser", "Lisser", "Lasser"],
             answer: 0,
-            soundName: "Deep",
+            soundName: "Lesser",
             explanation: """
-    D･e･e･p だよ。
+    Lesser だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["E･a･r･t･j･h", "E･a･r･t･h", "E･a･t･h"],
+            choices: ["Light", "Lights", "Lightz"],
             answer: 1,
-            soundName: "Earth",
+            soundName: "Lights",
             explanation: """
-    E･a･r･t･h だよ。
+    Lights だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
