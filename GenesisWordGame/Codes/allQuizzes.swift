@@ -496,146 +496,146 @@ let ThirdDayQuizzes: [Quiz] = [
 let FourthDayQuizzes: [Quiz] = [
 
     Quiz(
-            choices: ["Also", "Arso", "Seso"],
+            choices: ["A･l･s･o", "A･r･s･o", "S･e･s･o"],
             answer: 0,
             soundName: "Also",
             explanation: """
-    Also だよ。
+    A･l･s･o だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["Dayz", "Days", "Day"],
+            choices: ["D･a･y･z", "D･a･y･s", "D･a･y"],
             answer: 1,
             soundName: "Days",
             explanation: """
-    Days だよ。
+    D･a･y･s だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["Foulth", "Forth", "Fourth"],
+            choices: ["F･o･u･l･t･h", "F･o･r･t･h", "F･o･u･r･t･h"],
             answer: 2,
             soundName: "Fourth",
             explanation: """
-    Fourth だよ。
+    F･o･u･r･t･h だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["Give", "Geve", "Gibe"],
+            choices: ["G･i･v･e", "G･e･v･e", "G･i･b･e"],
             answer: 0,
             soundName: "Give",
             explanation: """
-    Give だよ。
+    G･i･v･e だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["Greet", "Great", "Greot"],
+            choices: ["G･r･e･e･t", "G･r･e･a･t", "G･r･e･o･t"],
             answer: 1,
             soundName: "Great",
             explanation: """
-    Great だよ。
+    G･r･e･a･t だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["Great", "Greatter", "Greater"],
+            choices: ["G･r･e･a･t", "G･r･e･a･t･t･e･r", "G･r･e･a･t･e･r"],
             answer: 2,
             soundName: "Greater",
             explanation: """
-    Greater だよ。
+    G･r･e･a･t･e･r だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["Lesser", "Lisser", "Lasser"],
+            choices: ["L･e･s･s･e･r", "L･i･s･s･e･r", "L･a･s･s･e･r"],
             answer: 0,
             soundName: "Lesser",
             explanation: """
-    Lesser だよ。
+    L･e･s･s･e･r だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["Light", "Lights", "Lightz"],
+            choices: ["L･ig･h･t", "L･i･g･h･t･s", "L･i･g･h･t･z"],
             answer: 1,
             soundName: "Lights",
             explanation: """
-    Lights だよ。
+    L･i･g･h･t･s だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["Ruuule", "Rele", "Rule"],
+            choices: ["R･u･u･l･e", "R･e･l･e", "R･u･l･e"],
             answer: 2,
             soundName: "Rule",
             explanation: """
-    Rule だよ。
+    R･u･l･e だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["Seasons", "Seasonx", "Seasonz"],
+            choices: ["S･e･a･s･o･n･s", "S･e･a･s･o･n･x", "S･e･a･s･o･n･z"],
             answer: 0,
             soundName: "Seasons",
             explanation: """
-    Seasons だよ。
+    S･e･a･s･o･n･s だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["Sot", "Set", "Sit"],
+            choices: ["S･o･t", "S･e･t", "S･i･t"],
             answer: 1,
             soundName: "Set",
             explanation: """
-    Set だよ。
+    S･e･t だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･r･m", "F･o･r･m", "F･r･o･m"],
+            choices: ["S･t･a･r･", "S･e･t･a･r", "S･t･a･r･s"],
             answer: 2,
-            soundName: "From",
+            soundName: "Stars",
             explanation: """
-    F･r･o･m だよ。
+    S･t･a･r･s だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["G･o･d", "G･d", "G･o･o･d"],
+            choices: ["T･h･e･m", "T･h･e･n", "T･h･i･m"],
             answer: 0,
-            soundName: "God",
+            soundName: "Them",
             explanation: """
-    G･o･d だよ。
+    T･h･e･m だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["G･o･d", "G･o･o･d", "D･o･d"],
+            choices: ["T･o･o", "T･w･o", "T･o"],
             answer: 1,
-            soundName: "Good",
+            soundName: "Two",
             explanation: """
-    G･o･o･d だよ。
+    T･w･o だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["H", "H･e･e", "H･e"],
+            choices: ["Y･e･a･r", "Y･e･a･r･z", "Y･e･a･r･s"],
             answer: 2,
-            soundName: "He",
+            soundName: "Years",
             explanation: """
-    H･e だよ。
+    Y･e･a･r･s だよ。
     頑張ってこのスペルを覚えよう
     """
         )
