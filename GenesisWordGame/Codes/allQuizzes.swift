@@ -650,79 +650,79 @@ let FifthDayQuizzes: [Quiz] = [
 let SixthDayQuizzes: [Quiz] = [
     
     Quiz(
-            choices: ["A･n･d", "A･d", "I･n･d"],
+            choices: ["A･f･t･e･r", "A･f･t･a･r", "A･f･t･i･r"],
             answer: 0,
-            soundName: "And",
+            soundName: "After",
             explanation: """
-    A･n･d だよ。
+    A･f･t･e･r だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["B･e･e", "B･e", "E･e"],
+            choices: ["A･e･r", "A･i･r", "A･i･l"],
             answer: 1,
-            soundName: "Be",
+            soundName: "Air",
             explanation: """
-    B･e だよ。
+    A･i･r だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["B･e･g･i･n･i･n･g", "B･e･n･i･n･n･i･n･g", "B･e･g･i･n･n･i･n･g"],
+            choices: ["E･l･l", "O･l･l", "A･l･l"],
             answer: 2,
-            soundName: "Beginning",
+            soundName: "All",
             explanation: """
-    B･e･g･i･n･n･i･n･g だよ。
+    A･l･l だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["C･a･l･l･e･d", "C･a･l･e･d", "C･a･l･l･e"],
+            choices: ["B･e･a･s･t･s", "B･e･a･s･t", "B･e･a･s･l･s"],
             answer: 0,
-            soundName: "Called",
+            soundName: "Beasts",
             explanation: """
-    C･a･l･l･e･d だよ。
+    B･e･a･s･t･s だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["C･r･e･a･t･e", "C･r･e･a･t･e･d", "C･r･a･t･e･d"],
+            choices: ["B･e･g･o･l･d", "B･e･h･o･l･d", "H･e･h･o･l･d"],
             answer: 1,
-            soundName: "Created",
+            soundName: "Behold",
             explanation: """
-    C･r･e･a･t･e･d だよ。
+    B･e･h･o･l･d だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["D･i･y", "D･a", "D･a･y"],
+            choices: ["B･i･r･t･h", "B･r･e･t･h", "B･r･e･a･t･h"],
             answer: 2,
-            soundName: "Day",
+            soundName: "Breath",
             explanation: """
-    D･a･y だよ。
+    Breath だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["D･e･e･p", "D･e･p", "D･e･e･q"],
+            choices: ["B･r･i･n･g", "B･l･i･n･g", "V･r･i･n･g"],
             answer: 0,
-            soundName: "Deep",
+            soundName: "Bring",
             explanation: """
-    D･e･e･p だよ。
+    B･r･i･n･g だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["E･a･r･t･j･h", "E･a･r･t･h", "E･a･t･h"],
+            choices: ["C･r･e･a･t･t･l･e", "C･a･t･t･l･e", "C･a･t･l･e"],
             answer: 1,
-            soundName: "Earth",
+            soundName: "Cattle",
             explanation: """
-    E･a･r･t･h だよ。
+    C･a･t･t･l･e だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
