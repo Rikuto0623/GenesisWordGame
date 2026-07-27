@@ -727,168 +727,168 @@ let SixthDayQuizzes: [Quiz] = [
     """
         ),
         Quiz(
-            choices: ["E･v･e･n･i･g", "E･v･n･i･n･g", "E･v･e･n･i･n･g"],
+            choices: ["C･r･e･e･e･p･i･n･g", "C･r･e･p･i･n･g", "C･r･e･e･p･i･n･g"],
             answer: 2,
-            soundName: "Evening",
+            soundName: "Creeping",
             explanation: """
-    E･v･e･n･i･n･g だよ。
+    C･r･e･e･p･i･n･g だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･a･c･e", "F･a･e", "F･a･s･e"],
+            choices: ["C･r･e･e･p･s", "C･r･e･p･s", "C･r･e･e･e･p･s"],
             answer: 0,
-            soundName: "Face",
+            soundName: "Creeps",
             explanation: """
-    F･a･c･e だよ。
+    C･r･e･e･p･s だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･r･o･m", "F･o･r･m", "F･o･m"],
+            choices: ["D･o･m･i･m･i･o･n", "D･o･m･i･n･i･o･n", "D･o･n･i･n･o･n"],
             answer: 1,
-            soundName: "Form",
+            soundName: "Dominion",
             explanation: """
-    F･o･r･m だよ。
+    D･o･m･i･n･i･o･n だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･r･m", "F･o･r･m", "F･r･o･m"],
+            choices: ["E･v･e･l･y･t･h･i･n･g", "E･b･e･r･y･i･n･g", "E･v･e･r･y･t･h･i･n･g"],
             answer: 2,
-            soundName: "From",
+            soundName: "Everything",
             explanation: """
-    F･r･o･m だよ。
+    E･v･e･r･y･t･h･i･n･g だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["G･o･d", "G･d", "G･o･o･d"],
+            choices: ["F･e･m･a･l･e", "F･i･m･a･l･e", "F･e･m･a･i･e"],
             answer: 0,
-            soundName: "God",
+            soundName: "Female",
             explanation: """
-    G･o･d だよ。
+    F･e･m･a･l･e だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["G･o･d", "G･o･o･d", "D･o･d"],
+            choices: ["F･i･c･h", "F･i･s･h", "F･e･s･h"],
             answer: 1,
-            soundName: "Good",
+            soundName: "Fish",
             explanation: """
-    G･o･o･d だよ。
+    F･i･s･h だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["H", "H･e･e", "H･e"],
+            choices: ["F･u･u･d", "F･u･d", "F･o･o･d"],
             answer: 2,
-            soundName: "He",
+            soundName: "Food",
             explanation: """
-    H･e だよ。
+    F･o･o･d だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+            choices: ["G･i･v･e･n", "G･i･v･e･n･s", "G･i･b･e･n"],
             answer: 0,
-            soundName: "Heavens",
+            soundName: "Given",
             explanation: """
-    H･e･a･v･e･n･s だよ。
+    G･i･v･e･n だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
     Quiz(
-        choices: ["I･s", "I･n", "O･n"],
+        choices: ["Grond", "Ground", "Greund"],
         answer: 1,
-        soundName: "In",
+        soundName: "Ground",
         explanation: """
-I･n だよ。
+Ground だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["R･e･t", "L･t", "L･e･t"],
+        choices: ["H･o･s", "H･i･s", "H･a･s"],
         answer: 2,
-        soundName: "Let",
+        soundName: "Has",
         explanation: """
-L･e･t だよ。
+H･a･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["L･i･g･h･t", "R･i･g･h･t", "I･i･g･h･t"],
+        choices: ["H･a･v･e", "H･a･b･e", "H･a･c･e"],
         answer: 0,
-        soundName: "Light",
+        soundName: "Have",
         explanation: """
-L･i･g･h･t だよ。
+H･a･v･e だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["M･o･r･i･n･g", "M･o･r･n･i･n･g", "M･o･n･i･n･g"],
+        choices: ["H･e･m", "H･i･m", "H･a･n"],
         answer: 1,
-        soundName: "Morning",
+        soundName: "Him",
         explanation: """
-M･o･r･n･i･n･g だよ。
+H･i･m だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["M･o･r･n･i･n･g", "M･o･b･i･n･g", "M･o･v･i･n･g"],
+        choices: ["H･a･s", "H･e･s", "H･i･s"],
         answer: 2,
-        soundName: "Moving",
+        soundName: "His",
         explanation: """
-M･o･v･i･n･g だよ。
+H･i･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["N･i･g･h･t", "L･i･g･h･t", "R･i･g･h･t"],
+        choices: ["H･o･l･d", "B･e･h･o･l･d", "H･a･l･d"],
         answer: 0,
-        soundName: "Night",
+        soundName: "Hold",
         explanation: """
-N･i･g･h･t だよ。
+H･o･l･d だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["F", "O･f", "F･o"],
+        choices: ["I･m･o･g･e", "I･m･a･g･e", "L･m･a･g･e"],
         answer: 1,
-        soundName: "Of",
+        soundName: "Image",
         explanation: """
-O･f だよ。
+I･m･a･g･e だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["O･e", "N･e", "O･n･e"],
+        choices: ["I･t･t･s", "I･t", "I･t･s"],
         answer: 2,
-        soundName: "One",
+        soundName: "Its",
         explanation: """
-O･n･e だよ。
+I･t･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["O･v･e･r", "O･e･r", "V･e･r"],
+        choices: ["L･i･f･e", "L･i･f･e･w", "L･i･f･e･s"],
         answer: 0,
-        soundName: "Over",
+        soundName: "Life",
         explanation: """
-O･v･e･r だよ。
+L･i･f･e だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["S･e･d", "S･a･i･d", "S･i･d"],
+        choices: ["Likiness", "Likeness", "Likiniss"],
         answer: 1,
-        soundName: "Said",
+        soundName: "Likeness",
         explanation: """
-S･a･i･d だよ。
+Likeness だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
