@@ -884,92 +884,92 @@ L･i･f･e だよ。
 """
     ),
     Quiz(
-        choices: ["Likiness", "Likeness", "Likiniss"],
+        choices: ["L･i･k･i･n･e･s･s", "L･i･k･e･n･e･s･s", "L･i･k･i･n･i･s･s"],
         answer: 1,
         soundName: "Likeness",
         explanation: """
-Likeness だよ。
+L･i･k･e･n･e･s･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["S･o･w", "S･w･a", "S･a･w"],
+        choices: ["M･e･d･e", "M･o･d･e", "M･d･v･e"],
         answer: 2,
-        soundName: "Saw",
+        soundName: "Made",
         explanation: """
-S･a･w だよ。
+M･a･d･e だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["S･e･p･a･r･a･t･e･d", "S･p･i･r･i･t", "S･e･p･a･r･t･e･d"],
+        choices: ["M･a･l･e", "N･a･l･e", "M･a･d･e"],
         answer: 0,
-        soundName: "Separated",
+        soundName: "Male",
         explanation: """
-S･e･p･a･r･a･t･e･d だよ。
+M･a･l･e だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["S･p･i･r･t", "S･p･i･r･i･t", "S･p･r･i･t"],
+        choices: ["M･o･n", "M･a･n", "M･e･n"],
         answer: 1,
-        soundName: "Spirit",
+        soundName: "Man",
         explanation: """
-S･p･i･r･i･t だよ。
+M･a･n だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["T･h･o･t", "T･h･e･t", "T･h･a･t"],
+        choices: ["M･o･v･e･s･s", "M･o･v･e", "M･o･v･e･s"],
         answer: 2,
-        soundName: "That",
+        soundName: "Moves",
         explanation: """
-T･h･a･t だよ。
+M･o･v･e･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["T･h･e", "Z･a", "Z･e"],
+        choices: ["O･u･r", "W･e･r", "W･e･r･e"],
         answer: 0,
-        soundName: "The",
+        soundName: "Our",
         explanation: """
-T･h･e だよ。
+O･u･r だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["S･e･r･e", "T･h･e･r･e", "Z･e･r･e"],
+        choices: ["E･w･n", "O･w･n", "A･w･n"],
         answer: 1,
-        soundName: "There",
+        soundName: "Own",
         explanation: """
-T･h･e･r･e だよ。
+Own だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["O･p･o･n", "U･q･o･n", "U･p･o･n"],
+        choices: ["P･r･a･n･t", "P･l･a･n･t･s･", "P･l･a･n･t"],
         answer: 2,
-        soundName: "Upon",
+        soundName: "Plant",
         explanation: """
-U･p･o･n だよ。
+P･l･a･n･t だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["V･o･i･d", "V･o･d", "V･i･d"],
+        choices: ["Shall", "Sholl", "Shell"],
         answer: 0,
-        soundName: "Void",
+        soundName: "Shall",
         explanation: """
-V･o･i･d だよ。
+Shall だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["Q･a･w", "W･a･s", "G･a･s"],
+        choices: ["Sbdue", "Subdue", "Sudbue"],
         answer: 1,
-        soundName: "Was",
+        soundName: "Subdue",
         explanation: """
-W･a･s だよ。
+Subdue だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
