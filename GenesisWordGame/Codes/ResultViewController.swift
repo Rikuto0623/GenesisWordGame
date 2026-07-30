@@ -38,7 +38,7 @@ class ResultViewController: UIViewController {
         if score == 5 {
             messageLabel.text = "Perfect!! 🎉"
         } else if score >= 4 {
-            messageLabel.text = "You can do it 😄😀"
+            messageLabel.text = "You can do it 😄😀😄"
         } else if score >= 3 {
             messageLabel.text = "Great Job! 😄"
         } else {
