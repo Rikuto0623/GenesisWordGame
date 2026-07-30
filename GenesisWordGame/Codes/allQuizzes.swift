@@ -974,65 +974,65 @@ Subdue だよ。
 """
     ),
     Quiz(
-        choices: ["W･a･t･s", "W･o･r･d", "W･a･t･e･r･s"],
+        choices: ["T･h･e･n･g", "T･h･i･n･g･s", "Thing"],
         answer: 2,
-        soundName: "Waters",
+        soundName: "Thing",
         explanation: """
-W･a･t･e･r･s だよ。
+T･h･i･n･g だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["W･i･t･h･o･u･t", "W･a･t･h･e･r･e･d", "W･a･t･r･e･r･e"],
+        choices: ["T･h･i･n･g･s", "T･h･i･n･g", "T･h･e･n･g･s"],
         answer: 0,
-        soundName: "Without",
+        soundName: "Things",
         explanation: """
-W･i･t･h･o･u･t だよ。
+T･h･i･n･g･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["S･e･r･e", "T･h･e･r･e", "Z･e･r･e"],
+        choices: ["T･r･e", "T･r･e･e", "T･l･e･e"],
         answer: 1,
-        soundName: "There",
+        soundName: "Tree",
         explanation: """
-T･h･e･r･e だよ。
+T･r･e･e だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["O･p･o･n", "U･q･o･n", "U･p･o･n"],
+        choices: ["I･s", "A･s", "U･s"],
         answer: 2,
-        soundName: "Upon",
+        soundName: "Us",
         explanation: """
-U･p･o･n だよ。
+U･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["V･o･i･d", "V･o･d", "V･i･d"],
+        choices: ["V･e･r･y", "V･e･y", "V･e･r"],
         answer: 0,
-        soundName: "Void",
+        soundName: "Very",
         explanation: """
-V･o･i･d だよ。
+V･e･r･y だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["Q･a･w", "W･a･s", "G･a･s"],
+        choices: ["U", "Y･o･u", "U･o"],
         answer: 1,
-        soundName: "Was",
+        soundName: "You",
         explanation: """
-W･a･s だよ。
+Y･o･u だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["W･a･t･s", "W･o･r･d", "W･a･t･e･r･s"],
+        choices: ["Y･o･a･r", "Y･o･e･r", "Y･o･u･r"],
         answer: 2,
-        soundName: "Waters",
+        soundName: "Your",
         explanation: """
-W･a･t･e･r･s だよ。
+Y･o･u･r だよ。
 頑張ってこのスペルを覚えよう
 """
     )
