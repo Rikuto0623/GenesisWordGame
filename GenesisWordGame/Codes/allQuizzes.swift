@@ -956,20 +956,20 @@ P･l･a･n･t だよ。
 """
     ),
     Quiz(
-        choices: ["Shall", "Sholl", "Shell"],
+        choices: ["S･h･a･l･l", "S･h･o･l･l", "S･h･e･l･l"],
         answer: 0,
         soundName: "Shall",
         explanation: """
-Shall だよ。
+S･h･a･l･l だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["Sbdue", "Subdue", "Sudbue"],
+        choices: ["S･b･d･u･e", "S･u･b･d･u･e", "S･u･d･b･u･e"],
         answer: 1,
         soundName: "Subdue",
         explanation: """
-Subdue だよ。
+S･u･b･d･u･e だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
