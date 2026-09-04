@@ -5,6 +5,11 @@
 //  Created by 鈴木久美 on 2026/06/02.
 //
 
+//
+//  RankingViewController.swift
+//  GenesisGameApp
+//
+
 import UIKit
 
 class RankingViewController: UIViewController,
@@ -33,6 +38,8 @@ class RankingViewController: UIViewController,
         loadRanking()
     }
 
+    // MARK: - ランキング読み込み
+
     func loadRanking() {
 
         rankingData =
@@ -48,6 +55,8 @@ class RankingViewController: UIViewController,
         tableView.reloadData()
     }
 
+    // MARK: - セル数
+
     func tableView(
         _ tableView: UITableView,
         numberOfRowsInSection section: Int
@@ -55,6 +64,8 @@ class RankingViewController: UIViewController,
 
         return rankingData.count
     }
+
+    // MARK: - セル表示
 
     func tableView(
         _ tableView: UITableView,
@@ -81,5 +92,35 @@ class RankingViewController: UIViewController,
         "\(point)pt"
 
         return cell
+    }
+
+    // MARK: - 左スワイプ削除
+
+    func tableView(
+        _ tableView: UITableView,
+        commit editingStyle: UITableViewCell.EditingStyle,
+        forRowAt indexPath: IndexPath
+    ) {
+
+        if editingStyle == .delete {
+
+            // ① 配列から削除
+            rankingData.remove(at: indexPath.row)
+
+            // ② UserDefaultsに保存
+            UserDefaults.standard.set(
+                rankingData,
+                forKey: "RANKING"
+            )
+
+            // ③ TableViewから削除
+            tableView.deleteRows(
+                at: [indexPath],
+                with: .automatic
+            )
+
+            // ④ 順位を更新
+            tableView.reloadData()
+        }
     }
 }
