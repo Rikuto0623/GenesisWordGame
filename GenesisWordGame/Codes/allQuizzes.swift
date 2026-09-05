@@ -489,6 +489,178 @@ let SecondDayQuizzes: [Quiz] = [
 
 // 第三日
 let ThirdDayQuizzes: [Quiz] = [
+    
+    Quiz(
+            choices: ["A･c･c･o･r･d･i･n･g", "A･c･o･r･d･i･n･g", "A･h･o･r･d･i･n･g"],
+            answer: 0,
+            soundName: "According",
+            explanation: """
+    A･c･c･o･r･d･i･n･g だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["A･p･e･a･r", "A･p･p･e･a･r", "A･p･p･e･e･a･r"],
+            answer: 1,
+            soundName: "Appear",
+            explanation: """
+    A･p･p･e･a･r だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["B･e･r･i･n･g", "B･a･r･i･n･g", "B･e･a･r･i･n･g"],
+            answer: 2,
+            soundName: "Bearing",
+            explanation: """
+    B･e･a･r･i･n･g だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["B･r･o･u･g･h･t", "B･r･o･h･t", "B･r･o･i･u"],
+            answer: 0,
+            soundName: "Brought",
+            explanation: """
+    B･r･o･u･g･h･t だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["D･a･y", "D･r･y", "D･r"],
+            answer: 1,
+            soundName: "Dry",
+            explanation: """
+    D･r･y だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["F･o･u･r･r･t･h", "F･o･u･r･t･h", "F･o･r･t･h"],
+            answer: 2,
+            soundName: "Forth",
+            explanation: """
+    F･o･r･t･h だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["F･r･u･i･t", "F･u･t", "F･r･i･t"],
+            answer: 0,
+            soundName: "Fruit",
+            explanation: """
+    F･r･u･i･t だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["G･a･c･h･e･r･e･d", "G･a･t･h･e･r･e･d", "G･a･s･h･e･r･e･d"],
+            answer: 1,
+            soundName: "Gathered",
+            explanation: """
+    G･a･t･h･e･r･e･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["E･v･e･n･i･g", "E･v･n･i･n･g", "E･v･e･n･i･n･g"],
+            answer: 2,
+            soundName: "Evening",
+            explanation: """
+    E･v･e･n･i･n･g だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["F･a･c･e", "F･a･e", "F･a･s･e"],
+            answer: 0,
+            soundName: "Face",
+            explanation: """
+    F･a･c･e だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["F･r･o･m", "F･o･r･m", "F･o･m"],
+            answer: 1,
+            soundName: "Form",
+            explanation: """
+    F･o･r･m だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["F･r･m", "F･o･r･m", "F･r･o･m"],
+            answer: 2,
+            soundName: "From",
+            explanation: """
+    F･r･o･m だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["G･o･d", "G･d", "G･o･o･d"],
+            answer: 0,
+            soundName: "God",
+            explanation: """
+    G･o･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["G･o･d", "G･o･o･d", "D･o･d"],
+            answer: 1,
+            soundName: "Good",
+            explanation: """
+    G･o･o･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["H", "H･e･e", "H･e"],
+            answer: 2,
+            soundName: "He",
+            explanation: """
+    H･e だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
+            answer: 0,
+            soundName: "Heavens",
+            explanation: """
+    H･e･a･v･e･n･s だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+    Quiz(
+        choices: ["I･s", "I･n", "O･n"],
+        answer: 1,
+        soundName: "In",
+        explanation: """
+I･n だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["R･e･t", "L･t", "L･e･t"],
+        answer: 2,
+        soundName: "Let",
+        explanation: """
+L･e･t だよ。
+頑張ってこのスペルを覚えよう
+"""
+    )
 
 ]
 
