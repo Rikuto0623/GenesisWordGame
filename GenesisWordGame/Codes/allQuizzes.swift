@@ -568,96 +568,146 @@ let ThirdDayQuizzes: [Quiz] = [
     """
         ),
         Quiz(
-            choices: ["E･v･e･n･i･g", "E･v･n･i･n･g", "E･v･e･n･i･n･g"],
+            choices: ["I･n･e･o", "E･n･t･o", "I･n･t･o"],
             answer: 2,
-            soundName: "Evening",
+            soundName: "Into",
             explanation: """
-    E･v･e･n･i･n･g だよ。
+    I･n･t･o だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･a･c･e", "F･a･e", "F･a･s･e"],
+            choices: ["K･i･n･d", "K･e･d", "K･e･n･d"],
             answer: 0,
-            soundName: "Face",
+            soundName: "Kind",
             explanation: """
-    F･a･c･e だよ。
+    Kind だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･r･o･m", "F･o･r･m", "F･o･m"],
+            choices: ["K･i･n･d", "K･i･n･d･s", "K･e･d･s"],
             answer: 1,
-            soundName: "Form",
+            soundName: "Kinds",
             explanation: """
-    F･o･r･m だよ。
+    K･i･n･d･s だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["F･r･m", "F･o･r･m", "F･r･o･m"],
+            choices: ["L･a･d", "L･o･n･d", "L･a･n･d"],
             answer: 2,
-            soundName: "From",
+            soundName: "Land",
             explanation: """
-    F･r･o･m だよ。
+    L･a･n･d だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         
         Quiz(
-            choices: ["G･o･d", "G･d", "G･o･o･d"],
+            choices: ["P･l･a･c･e", "P･l･a･s･e", "P･l･c･e"],
             answer: 0,
-            soundName: "God",
+            soundName: "Place",
             explanation: """
-    G･o･d だよ。
+    P･l･a･c･e だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["G･o･d", "G･o･o･d", "D･o･d"],
+            choices: ["P･l･a･c･e", "P･l･a･n･t･s", "P･l･a･n･t"],
             answer: 1,
-            soundName: "Good",
+            soundName: "Plants",
             explanation: """
-    G･o･o･d だよ。
+    P･l･a･n･t･s だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
         Quiz(
-            choices: ["H", "H･e･e", "H･e"],
+            choices: ["P･e･t", "P･o･t", "P･u･t"],
             answer: 2,
-            soundName: "He",
+            soundName: "Put",
             explanation: """
-    H･e だよ。
-    頑張ってこのスペルを覚えよう
-    """
-        ),
-        Quiz(
-            choices: ["H･e･a･v･e･n･s", "H･e･a･v･e･n", "H･e･a･v･e･s"],
-            answer: 0,
-            soundName: "Heavens",
-            explanation: """
-    H･e･a･v･e･n･s だよ。
+    P･u･t だよ。
     頑張ってこのスペルを覚えよう
     """
         ),
     Quiz(
-        choices: ["I･s", "I･n", "O･n"],
+        choices: ["S･e･a･z", "S･e･a･s", "S･e･a"],
         answer: 1,
-        soundName: "In",
+        soundName: "Seas",
         explanation: """
-I･n だよ。
+S･e･a･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["R･e･t", "L･t", "L･e･t"],
+        choices: ["S･o･e･d", "S･e･a･d", "S･e･e･d"],
         answer: 2,
-        soundName: "Let",
+        soundName: "Seed",
         explanation: """
-L･e･t だよ。
+S･e･e･d だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["T･h･e･i･r", "T･h･e･r･e", "T･e･i･r"],
+        answer: 0,
+        soundName: "Their",
+        explanation: """
+T･h･e･i･r だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["F･o･u･l･t･h", "F･o･r･t･h", "F･o･u･r･t･h"],
+        answer: 1,
+        soundName: "Fourth",
+        explanation: """
+F･o･u･r･t･h だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["G･i･v･e", "G･e･v･e", "G･i･b･e"],
+        answer: 2,
+        soundName: "Give",
+        explanation: """
+G･i･v･e だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["G･r･e･e･t", "G･r･e･a･t", "G･r･e･o･t"],
+        answer: 0,
+        soundName: "Great",
+        explanation: """
+G･r･e･a･t だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    
+    Quiz(
+        choices: ["G･r･e･a･t", "G･r･e･a･t･t･e･r", "G･r･e･a･t･e･r"],
+        answer: 1,
+        soundName: "Greater",
+        explanation: """
+G･r･e･a･t･e･r だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
+    Quiz(
+        choices: ["P･e･t", "P･o･t", "P･u･t"],
+        answer: 2,
+        soundName: "Put",
+        explanation: """
+P･u･t だよ。
 頑張ってこのスペルを覚えよう
 """
     )
