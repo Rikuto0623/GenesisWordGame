@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ホーム画面" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHO-oa-fc4">
@@ -113,7 +113,11 @@
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vNA-NL-fc7">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="questionmark.circle" catalog="system" id="SYr-jh-nln"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="questionmark.circle" catalog="system" id="SYr-jh-nln">
+                            <connections>
+                                <segue destination="7h4-o0-Plu" kind="show" id="uDw-z2-Swm"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="nameLabel" destination="ns5-Cb-wNw" id="tgz-hc-bF7"/>
@@ -128,7 +132,7 @@
             <objects>
                 <viewController id="q0L-rq-8v2" customClass="SpeakViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H7x-aT-t58">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ここに単語をいれてね" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fD-N0-JUV">
@@ -191,14 +195,13 @@
                         <viewLayoutGuide key="safeArea" id="9UW-mx-fil"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7ed-gj-dWP"/>
                     <connections>
                         <outlet property="textField" destination="0fD-N0-JUV" id="hCd-y6-SZb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zk9-4U-wJG" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="111"/>
+            <point key="canvasLocation" x="1654" y="111"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eNu-7h-rEb">
@@ -223,7 +226,7 @@
             <objects>
                 <viewController id="dUp-0X-ggf" customClass="QuizViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L0r-be-14E">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j41-V4-EDd">
@@ -313,7 +316,6 @@
                         <viewLayoutGuide key="safeArea" id="cIr-xu-Iq6"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="BP7-78-avV"/>
                     <connections>
                         <outlet property="button1" destination="nzr-ba-CEP" id="mxt-cY-q0L"/>
                         <outlet property="button2" destination="j41-V4-EDd" id="ICq-Qd-Fut"/>
@@ -325,14 +327,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LUn-40-sU3" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1709" y="778"/>
+            <point key="canvasLocation" x="1654" y="778"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="9Kk-Cw-Qoj">
             <objects>
                 <viewController id="VBA-4V-64h" customClass="ResultViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dbz-Bb-6PD">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="メッセージ" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sw4-s9-0Gh">
@@ -385,7 +387,6 @@
                         <viewLayoutGuide key="safeArea" id="X6y-9G-46A"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="6yj-8E-en2"/>
                     <connections>
                         <outlet property="medalImage" destination="cY3-Gp-8ah" id="sCA-rQ-Ob3"/>
                         <outlet property="messageLabel" destination="sw4-s9-0Gh" id="tuZ-Ey-nBY"/>
@@ -396,14 +397,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fnw-dr-lOc" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2388" y="778"/>
+            <point key="canvasLocation" x="2312" y="778"/>
         </scene>
         <!--Point Page View Controller-->
         <scene sceneID="88b-hQ-7lz">
             <objects>
                 <viewController id="yYn-JS-I7z" customClass="PointPageViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wRR-3B-bm7">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ポイント" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNV-Pb-KHe">
@@ -454,7 +455,6 @@
                         <viewLayoutGuide key="safeArea" id="Be7-aX-qMf"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="VI5-Fg-27S"/>
                     <connections>
                         <outlet property="characterImageView" destination="N8t-A2-fKl" id="nXi-wb-P7a"/>
                         <outlet property="nameLabel" destination="Kr2-Bt-G8q" id="NsE-7u-9Hr"/>
@@ -470,7 +470,7 @@
             <objects>
                 <viewController id="caK-H8-LPM" customClass="SettingViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LBp-QY-xRx">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOg-37-VhI">
@@ -519,7 +519,6 @@
                         <viewLayoutGuide key="safeArea" id="Ltf-pG-iCg"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7En-gw-0zu"/>
                     <connections>
                         <outlet property="ageTextField" destination="t21-6l-hmg" id="Tbx-oA-V7Y"/>
                         <outlet property="nameTextField" destination="MGK-Ih-VlC" id="dpa-98-2WF"/>
@@ -534,7 +533,7 @@
             <objects>
                 <viewController id="bRl-3Q-g6F" customClass="RankingViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iZq-nW-hjx">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOq-3r-2Tn">
@@ -585,7 +584,6 @@
                         <viewLayoutGuide key="safeArea" id="tOw-hH-19i"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="z9U-iS-K96"/>
                     <connections>
                         <outlet property="tableView" destination="fQM-Ti-R7b" id="H8r-7O-Ee8"/>
                     </connections>
@@ -599,7 +597,7 @@
             <objects>
                 <viewController id="nj8-0z-HBg" customClass="DaySelectViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sp9-bv-hHJ">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enF-zC-4XS">
@@ -717,18 +715,17 @@
                         <viewLayoutGuide key="safeArea" id="iSV-BO-A1r"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="T6I-y4-u9s"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBr-cP-PtH" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="938.80597014925365" y="777.80320366132719"/>
+            <point key="canvasLocation" x="939" y="778"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oia-cx-1lr">
             <objects>
                 <viewController id="oKX-qM-5y0" customClass="ViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jQy-vg-jGC">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87p-qC-lV4">
@@ -832,51 +829,21 @@
                         <viewLayoutGuide key="safeArea" id="M5x-tU-YNv"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="azQ-T0-3Hx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="652-vB-jpt" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="21" y="778"/>
         </scene>
-        <!--Setting View Controller-->
-        <scene sceneID="c5m-jf-QH2">
+        <!--Help View Controller-->
+        <scene sceneID="fZ6-wn-JRK">
             <objects>
-                <viewController id="Jb2-cx-j83" customClass="SettingViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IyJ-4z-83p">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                <viewController id="7h4-o0-Plu" customClass="HelpViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vak-zE-6Wa">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kf0-E6-pPr">
-                                <rect key="frame" x="141" y="555" width="120" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="設定">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                    <color key="baseForegroundColor" white="0.79757063360000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="saveButtonTapped:" destination="Jb2-cx-j83" eventType="touchUpInside" id="Q4E-qN-wz8"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="年齢" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SPf-4q-POb">
-                                <rect key="frame" x="16" y="366" width="370" height="51.666666666666686"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="名前" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sHC-9o-Xdw">
-                                <rect key="frame" x="16" y="221" width="370" height="51.666666666666686"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wJ-iH-xkk">
-                                <rect key="frame" x="141" y="730" width="120" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jq1-6F-Uud">
+                                <rect key="frame" x="141" y="734" width="120" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="ホームへ戻る">
@@ -884,25 +851,23 @@
                                     <color key="baseForegroundColor" red="0.90196078430000004" green="0.94117647059999998" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" red="0.27058823529999998" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dSK-Nf-Cnh"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="9Nd-Sk-E8v"/>
+                        <viewLayoutGuide key="safeArea" id="0FT-fS-sml"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pYr-8T-aoJ"/>
-                    <connections>
-                        <outlet property="ageTextField" destination="SPf-4q-POb" id="1Zi-5F-fKz"/>
-                        <outlet property="nameTextField" destination="sHC-9o-Xdw" id="XBX-zo-6I7"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q9s-BH-kL2" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="anI-fz-tuU" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1653.731343283582" y="-623.34096109839811"/>
+            <point key="canvasLocation" x="2312" y="111"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Tp9-6m-Vnz"/>
-        <segue reference="Pwb-Ud-sOp"/>
+        <segue reference="jdD-fW-3aT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Earth" width="1334" height="1179"/>
