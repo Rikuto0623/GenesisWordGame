@@ -8,7 +8,7 @@
 import UIKit
 import SafariServices
 
-class ViewController: UIViewController {
+class TypingDaySelectViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

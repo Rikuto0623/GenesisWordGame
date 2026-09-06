@@ -3,6 +3,7 @@
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -113,8 +114,9 @@
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vNA-NL-fc7">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="questionmark.circle" catalog="system" id="SYr-jh-nln">
-                            <color key="tintColor" red="0.0" green="1" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <barButtonItem key="rightBarButtonItem" id="SYr-jh-nln">
+                            <imageReference key="image" image="star.fill" catalog="system" symbolScale="small"/>
+                            <color key="tintColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="7h4-o0-Plu" kind="show" id="uDw-z2-Swm"/>
                             </connections>
@@ -721,10 +723,10 @@
             </objects>
             <point key="canvasLocation" x="939" y="778"/>
         </scene>
-        <!--View Controller-->
+        <!--Typing Day Select View Controller-->
         <scene sceneID="Oia-cx-1lr">
             <objects>
-                <viewController id="oKX-qM-5y0" customClass="ViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oKX-qM-5y0" customClass="TypingDaySelectViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jQy-vg-jGC">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -738,7 +740,7 @@
                                     <color key="baseBackgroundColor" red="0.18039215689999999" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="seconddayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="MqS-RW-ina"/>
+                                    <action selector="seconddayTypingButtonTapped:" destination="oKX-qM-5y0" eventType="touchUpInside" id="JY3-Pb-IVl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ea-wb-T3v">
@@ -856,14 +858,34 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="dSK-Nf-Cnh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6K-dV-4DH">
+                                <rect key="frame" x="41" y="536" width="320" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEq-6T-JvT">
+                                <rect key="frame" x="176" y="602" width="50" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray"/>
+                                <connections>
+                                    <action selector="addPointButtonTapped:" destination="7h4-o0-Plu" eventType="touchUpInside" id="KY6-Sn-eMk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0FT-fS-sml"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="addPointButton" destination="eEq-6T-JvT" id="MvY-vu-Po4"/>
+                        <outlet property="pointLabel" destination="H6K-dV-4DH" id="Ed0-0E-Pg6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="anI-fz-tuU" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2312" y="111"/>
+            <point key="canvasLocation" x="2311.9402985074626" y="110.52631578947367"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -879,7 +901,7 @@
         <image name="buttonBackIllustration4" width="1024" height="1024"/>
         <image name="buttonBackIllustration5" width="1024" height="1024"/>
         <image name="buttonBackIllustration6" width="1024" height="1024"/>
-        <image name="questionmark.circle" catalog="system" width="128" height="123"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
