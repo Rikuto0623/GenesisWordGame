@@ -1041,11 +1041,11 @@ let FifthDayQuizzes: [Quiz] = [
         ),
         
         Quiz(
-            choices: ["B･e･a･s･t･s", "B･e･a･s･t", "B･e･a･s･l･s"],
+            choices: ["W･i･n･g･e･d", "W･e･n･g･e･d", "W･e･n･g･i･d"],
             answer: 0,
-            soundName: "Beasts",
+            soundName: "Winged",
             explanation: """
-    B･e･a･s･t･s だよ。
+    W･i･n･g･e･d だよ。
     頑張ってこのスペルを覚えよう
     """
         )
