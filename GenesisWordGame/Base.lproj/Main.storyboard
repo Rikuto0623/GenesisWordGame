@@ -114,6 +114,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="vNA-NL-fc7">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="questionmark.circle" catalog="system" id="SYr-jh-nln">
+                            <color key="tintColor" red="0.0" green="1" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="7h4-o0-Plu" kind="show" id="uDw-z2-Swm"/>
                             </connections>
@@ -867,7 +868,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Tp9-6m-Vnz"/>
-        <segue reference="jdD-fW-3aT"/>
+        <segue reference="dSK-Nf-Cnh"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Earth" width="1334" height="1179"/>

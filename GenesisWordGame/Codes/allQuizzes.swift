@@ -865,6 +865,190 @@ let FourthDayQuizzes: [Quiz] = [
 
 // 第五日
 let FifthDayQuizzes: [Quiz] = [
+    
+    Quiz(
+            choices: ["A･c･r･o･s･s", "A･s･r･o･s･s", "A･c･l･o･s･s"],
+            answer: 0,
+            soundName: "Across",
+            explanation: """
+    A･c･v･r･o･s･s だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["B･i･r･d･z", "B･i･r･d･s", "B･i･r･d"],
+            answer: 1,
+            soundName: "Birds",
+            explanation: """
+    B･i･r･d･s だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["B･l･e･s･e･d", "B･l･e･s･d", "B･l･e･s･s･e･d"],
+            answer: 2,
+            soundName: "Blssed",
+            explanation: """
+    B･l･e･s･s･e･d だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["B･r･i･n･g", "B･r･e･n･g", "B･r･i･g"],
+            answer: 0,
+            soundName: "Bring",
+            explanation: """
+    B･r･i･n･g だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["C･r･e･e･t･u･r･e･s", "C･r･e･a･t･u･r･e･s", "C･r･e･a･t･r･e･s"],
+            answer: 1,
+            soundName: "Creatures",
+            explanation: """
+    C･r･e･a･t･u･r･e･s だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["F･i･r･s･h", "F･i･f･t･t･h", "F･i･F･t･h"],
+            answer: 2,
+            soundName: "Fifth",
+            explanation: """
+    F･i･f･t･h だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["F･i･l･l", "F･e･l･l", "F･a･l･l"],
+            answer: 0,
+            soundName: "Fill",
+            explanation: """
+    F･i･l･l だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["F･r･y", "F･l･y", "F･l･y･s"],
+            answer: 1,
+            soundName: "Fly",
+            explanation: """
+    F･l･y だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["F･r･u･i･e･t･f･u･l", "F･r･u･e･t･f･u･l", "F･r･u･i･t･f･u･l"],
+            answer: 2,
+            soundName: "Fruitful",
+            explanation: """
+    F･r･u･i･t･f･u･l だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["L･i･v･i･n･g", "L･e･v･e･n･g", "L･i･v･e･n･g"],
+            answer: 0,
+            soundName: "Living",
+            explanation: """
+    L･i･v･i･n･g だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["M･o･n･s･t･e･r･z", "M･o･n･s･t･e･r･s", "M･a･n･s･t･e･r･s"],
+            answer: 1,
+            soundName: "Monsters",
+            explanation: """
+    M･o･n･s･t･e･r･s だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["M･a･v･e･s", "M･o･v･e･z", "M･o･v･e･s"],
+            answer: 2,
+            soundName: "Moves",
+            explanation: """
+    M･o･v･e･s だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["M･u･l･t･i･p･l･y", "M･u･l･t･i･p･l･i", "M･y･l･t･i･p･l･y"],
+            answer: 0,
+            soundName: "Multiply",
+            explanation: """
+    M･u･l･t･i･p･l･y だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["O･o", "O･n", "O"],
+            answer: 1,
+            soundName: "Two",
+            explanation: """
+    O･n だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        Quiz(
+            choices: ["S･a･y･i･n･g･s", "S･a･y･e･n･g", "S･a･y･i･n･g"],
+            answer: 2,
+            soundName: "Saying",
+            explanation: """
+    S･a･y･i･n･g だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+    Quiz(
+            choices: ["S･e･a", "S･e･a･z", "S･e･a･s"],
+            answer: 0,
+            soundName: "Sea",
+            explanation: """
+    S･e･a だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["S･w･a･l･m", "S･w･a･r･m", "S･y･a･r･m"],
+            answer: 1,
+            soundName: "Swarm",
+            explanation: """
+    S･w･a･r･m だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["S･w･l･m･s", "S･w･a･l･m･s", "S･w･a･r･m･s"],
+            answer: 2,
+            soundName: "Swarms",
+            explanation: """
+    S･w･a･r･m･s だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        ),
+        
+        Quiz(
+            choices: ["B･e･a･s･t･s", "B･e･a･s･t", "B･e･a･s･l･s"],
+            answer: 0,
+            soundName: "Beasts",
+            explanation: """
+    B･e･a･s･t･s だよ。
+    頑張ってこのスペルを覚えよう
+    """
+        )
 
 ]
 
