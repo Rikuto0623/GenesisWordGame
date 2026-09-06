@@ -664,50 +664,50 @@ T･h･e･i･r だよ。
     ),
     
     Quiz(
-        choices: ["F･o･u･l･t･h", "F･o･r･t･h", "F･o･u･r･t･h"],
+        choices: ["T･h･e･i･r", "T･h･i･r･d", "T･h･i･r･d･s"],
         answer: 1,
-        soundName: "Fourth",
+        soundName: "Third",
         explanation: """
-F･o･u･r･t･h だよ。
+T･h･i･r･d だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     
     Quiz(
-        choices: ["G･i･v･e", "G･e･v･e", "G･i･b･e"],
+        choices: ["T･i･g･e･t･h･e･r", "T･a･g･e･t･h･e･r", "T･o･g･e･t･h･e･r"],
         answer: 2,
-        soundName: "Give",
+        soundName: "Together",
         explanation: """
-G･i･v･e だよ。
+T･o･g･e･t･h･e･r だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     
     Quiz(
-        choices: ["G･r･e･e･t", "G･r･e･a･t", "G･r･e･o･t"],
+        choices: ["T･r･e･e･s", "T･r･e･a･s", "T･r･e･e"],
         answer: 0,
-        soundName: "Great",
+        soundName: "Trees",
         explanation: """
-G･r･e･a･t だよ。
+T･r･e･e･s だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     
     Quiz(
-        choices: ["G･r･e･a･t", "G･r･e･a･t･t･e･r", "G･r･e･a･t･e･r"],
+        choices: ["V･e･g･a･t･a･t･i･o･n", "V･e･g･e･t･a･t･i･o･n", "V･a･g･e･t･a･t･i･o･n"],
         answer: 1,
-        soundName: "Greater",
+        soundName: "Vegetation",
         explanation: """
-G･r･e･a･t･e･r だよ。
+V･e･g･e･t･a･t･i･o･n だよ。
 頑張ってこのスペルを覚えよう
 """
     ),
     Quiz(
-        choices: ["P･e･t", "P･o･t", "P･u･t"],
+        choices: ["Y･i･e･l･l･i･n･g", "Y･e･i･l･d･i･n･g", "Y･i･e･l･d･i･n･g"],
         answer: 2,
-        soundName: "Put",
+        soundName: "Yielding",
         explanation: """
-P･u･t だよ。
+Y･i･e･l･d･i･n･g だよ。
 頑張ってこのスペルを覚えよう
 """
     )
