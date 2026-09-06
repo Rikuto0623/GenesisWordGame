@@ -16,7 +16,7 @@ class HelpViewController: UIViewController {
 
     // MARK: - UI
 
-    @IBOutlet weak var pointLabel: UILabel!
+    @IBOutlet weak var helpPointLabel: UILabel!
 
     @IBOutlet weak var addPointButton: UIButton!
 
@@ -44,7 +44,7 @@ class HelpViewController: UIViewController {
             forKey: "POINT"
         )
 
-        pointLabel.text = "\(point)ポイント"
+        helpPointLabel.text = "\(point)ポイント"
     }
 
     // MARK: - ポイントを増やす
@@ -57,7 +57,7 @@ class HelpViewController: UIViewController {
         )
 
         // 10ポイント増やす
-        let newPoint = currentPoint + 10
+        let newPoint = currentPoint + 25
 
         // 保存
         UserDefaults.standard.set(

@@ -461,7 +461,7 @@
                     <connections>
                         <outlet property="characterImageView" destination="N8t-A2-fKl" id="nXi-wb-P7a"/>
                         <outlet property="nameLabel" destination="Kr2-Bt-G8q" id="NsE-7u-9Hr"/>
-                        <outlet property="pointLabel" destination="WNV-Pb-KHe" id="f23-41-1nB"/>
+                        <outlet property="pointLabel" destination="WNV-Pb-KHe" id="OiX-QO-uzf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QlY-aZ-cf1" sceneMemberID="firstResponder"/>
@@ -840,7 +840,7 @@
         <!--Help View Controller-->
         <scene sceneID="fZ6-wn-JRK">
             <objects>
-                <viewController id="7h4-o0-Plu" customClass="HelpViewController" sceneMemberID="viewController">
+                <viewController id="7h4-o0-Plu" customClass="HelpViewController" customModule="GenesisWordGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vak-zE-6Wa">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -858,29 +858,32 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="dSK-Nf-Cnh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEq-6T-JvT">
+                                <rect key="frame" x="176" y="602" width="50" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="b">
+                                    <color key="baseForegroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addPointButtonTapped:" destination="7h4-o0-Plu" eventType="touchUpInside" id="fl8-b1-4nz"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6K-dV-4DH">
-                                <rect key="frame" x="41" y="536" width="320" height="58"/>
+                                <rect key="frame" x="41" y="497" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEq-6T-JvT">
-                                <rect key="frame" x="176" y="602" width="50" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray"/>
-                                <connections>
-                                    <action selector="addPointButtonTapped:" destination="7h4-o0-Plu" eventType="touchUpInside" id="KY6-Sn-eMk"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0FT-fS-sml"/>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.94117647059999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="addPointButton" destination="eEq-6T-JvT" id="MvY-vu-Po4"/>
-                        <outlet property="pointLabel" destination="H6K-dV-4DH" id="Ed0-0E-Pg6"/>
+                        <outlet property="addPointButton" destination="eEq-6T-JvT" id="oRI-6h-7Uh"/>
+                        <outlet property="helpPointLabel" destination="H6K-dV-4DH" id="w7g-YP-nrM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="anI-fz-tuU" sceneMemberID="firstResponder"/>
