@@ -89,6 +89,15 @@ let OneDayQuizzes: [Quiz] = [
     頑張ってこのスペルを覚えよう
     """
         ),
+    Quiz(
+        choices: ["D･a･r･k･n･e･s･s", "D･r･k･n･e･s･s", "D･a･r･k･e･s"],
+        answer: 0,
+        soundName: "Darkness",
+        explanation: """
+D･a･r･k･n･e･s･s だよ。
+頑張ってこのスペルを覚えよう
+"""
+    ),
         Quiz(
             choices: ["E･a･r･t･j･h", "E･a･r･t･h", "E･a･t･h"],
             answer: 1,
