@@ -40,28 +40,11 @@ class SpeakViewController: UIViewController {
         return text
     }
     
-    // 音声読み上げ
+    // 音声読み上げ（英語のみ）
     func speak(text: String) {
-        
         let utterance = AVSpeechUtterance(string: text)
         
-        let isJapanese =
-        text.range(
-            of: "[ぁ-んァ-ン一-龯]",
-            options: .regularExpression
-        ) != nil
-        
-        if isJapanese {
-            
-            utterance.voice =
-            AVSpeechSynthesisVoice(language: "ja-JP")
-            
-        } else {
-            
-            utterance.voice =
-            AVSpeechSynthesisVoice(language: "en-US")
-        }
-        
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
         utterance.rate = 0.45
         utterance.pitchMultiplier = 1.1
         utterance.volume = 1.0
